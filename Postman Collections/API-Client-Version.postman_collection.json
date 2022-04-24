@@ -1,0 +1,3341 @@
+{
+  "info": {
+    "_postman_id": "8b514bb0-fbe9-4ed5-a8c7-a13c603254be",
+    "name": "API-Client-Version",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Client",
+      "item": [
+        {
+          "name": "getPrice",
+          "_postman_id": "9d427163-3cc6-42f8-b70c-854f40992b54",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getPrice"
+          },
+          "response": []
+        },
+        {
+          "name": "blog",
+          "_postman_id": "6758a3c8-0b9a-44ea-9eb2-60378461835e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{client_url}}/api/v1/blog",
+              "host": [
+                "{{client_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "blog"
+              ],
+              "query": [
+                {
+                  "key": "postPerPage",
+                  "value": "5333",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "addContactUs",
+          "_postman_id": "27b30027-8e1d-4e4b-814e-7d9ef6db8614",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "sadeq",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "sadeqsheikhi@hotmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "topic",
+                  "value": "weblog",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "09182958875",
+                  "type": "text"
+                },
+                {
+                  "key": "contentMessage",
+                  "value": "this is some text for this",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/addContactUs"
+          },
+          "response": []
+        },
+        {
+          "name": "singleBlog",
+          "_postman_id": "85f9026d-9653-45ab-beaa-f62d7852cd9b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/blog/بیت-کوین-چیست"
+          },
+          "response": []
+        },
+        {
+          "name": "verfiyRecaptcaToken",
+          "_postman_id": "76f4fc3e-456c-4d2d-8317-10020f162b60",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "ad",
+                  "type": "text"
+                },
+                {
+                  "key": "secret",
+                  "value": "6Leq9TUdAAAAAI7xX9coGA0oLrEuZW5ieSqWpyuF",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/verfiyRecaptcaToken"
+          },
+          "response": []
+        },
+        {
+          "name": "getBasePrices",
+          "_postman_id": "059d44f6-4838-409d-bfdb-649a62c8058e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getBasePrices"
+          },
+          "response": []
+        },
+        {
+          "name": "getCategories",
+          "_postman_id": "f4cd8ac3-9919-4326-92a5-c752ce9a0370",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getCategories"
+          },
+          "response": []
+        },
+        {
+          "name": "popularPosts",
+          "_postman_id": "75b7f412-6faa-4382-aa8e-cdb6317b727d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "rows",
+                  "value": "5",
+                  "type": "string"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/popularPosts"
+          },
+          "response": []
+        },
+        {
+          "name": "relatedPosts",
+          "_postman_id": "17cc91d1-89ed-45ee-9c11-f0b6ceff904d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "postId",
+                  "value": "52",
+                  "type": "string"
+                },
+                {
+                  "key": "categoryId",
+                  "value": "1",
+                  "type": "string"
+                },
+                {
+                  "key": "rows",
+                  "value": "3",
+                  "type": "string"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/relatedPosts"
+          },
+          "response": []
+        },
+        {
+          "name": "blogSearch",
+          "_postman_id": "913484f5-d507-4f47-8dd8-6c033e3360ac",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{client_url}}/api/v1/blogSearch?text=یبیبلبیل&rows=25",
+              "host": [
+                "{{client_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "blogSearch"
+              ],
+              "query": [
+                {
+                  "key": "text",
+                  "value": "یبیبلبیل"
+                },
+                {
+                  "key": "rows",
+                  "value": "25"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "jobApply",
+          "_postman_id": "b7bfde29-e9b1-4013-abe9-9700534cadc2",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "saiwan",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "s.ganji73@gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "09035478091",
+                  "type": "text"
+                },
+                {
+                  "key": "position",
+                  "value": "BackEnd",
+                  "type": "text"
+                },
+                {
+                  "key": "resume",
+                  "type": "file",
+                  "src": "/C:/Users/SaiwanGanjiDeveloper/Desktop/Example.png"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/jobApply"
+          },
+          "response": []
+        },
+        {
+          "name": "vipBlog",
+          "_postman_id": "c2d7309e-7eda-4feb-94a3-835ee1c9e529",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{client_url}}/api/v1/vipBlog",
+              "host": [
+                "{{client_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "vipBlog"
+              ],
+              "query": [
+                {
+                  "key": "postPerPage",
+                  "value": "5333",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "69f6497c-5e68-42e3-9e29-3e5f166fff2e"
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "signup",
+          "_postman_id": "4ae926a8-37d6-4a49-a77b-1c8091e124a3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "password",
+                  "value": "123456789Ss",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "S.Ganji73@Gmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "Ganji1994@hotmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "smamhtk@yahoo.com",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/signup",
+            "description": "## This API Returns:\n<strong>token</strong>: 'jwt token'\n\n<strong>user</strong>: object containing all required user info\n\n    -- example: \n    user: {\n       email: 'sadeq@gmail.com'\n    }\n\n<strong>Validate</strong>: boolean"
+          },
+          "response": []
+        },
+        {
+          "name": "sendVerifyEmail",
+          "_postman_id": "98cfcea1-ab0c-429b-ba0b-d659ac35e575",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzcwNTMxNDAsImV4cCI6MTYzNzEzOTU0MCwibmJmIjoxNjM3MDUzMTQwLCJqdGkiOiJqeDBkT09yTEQ5Qk9mRzZnIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.UiuH5TNd8lVnA_gfN6lzCyE3ecCWLeBmR_ZMy-rfl0k"
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwNDgxMzk2LCJleHAiOjE2MzA0ODQ5OTYsIm5iZiI6MTYzMDQ4MTM5NiwianRpIjoicGxqSUdMRGdXTlViTU01TCIsInN1YiI6MjQsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.cuhYR9RowREn_pk6X-FSd2PLvHPIbJ_m-84QPKDhHnk",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMxMzQzODU4LCJleHAiOjE2MzEzNDc0NTgsIm5iZiI6MTYzMTM0Mzg1OCwianRpIjoicXRocDU0SFVGaHVadHpBcSIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.pGE8ursXtCIHTiOrNT2HxhjLQfPQkuEgLnAO44giTIQ",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/sendVerifyEmail"
+          },
+          "response": [
+            {
+              "id": "71175ad8-e9e2-4455-96e5-f2f082123431",
+              "name": "sendVerifyEmail",
+              "originalRequest": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "",
+                      "value": "",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{base_url}}/api/v1/sendVerifyEmail"
+              },
+              "_postman_previewlanguage": null,
+              "header": null,
+              "cookie": [],
+              "responseTime": null,
+              "body": null
+            }
+          ]
+        },
+        {
+          "name": "updateUserEmail",
+          "_postman_id": "e52e44b5-79a9-431a-84fa-3c3c4f98155d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzcwNTUxMTQsImV4cCI6MTYzNzE0MTUxNCwibmJmIjoxNjM3MDU1MTE0LCJqdGkiOiJCN2xsTVl5b1RMZ3dDRGVvIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.jr3V3zWJgEY6DqFhP-9pXwm6ZjToitP4EweQIp5_plU"
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjQ0Mzg2LCJleHAiOjE2MzMyNDc5ODYsIm5iZiI6MTYzMzI0NDM4NiwianRpIjoiamx0WFM4MWlhc0FXTmFrQyIsInN1YiI6MiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.jAsMZbqWLWNYy0T0t5CfC01You_1rNtsGVC-Lj6g42Y",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwMzIzNDQzLCJleHAiOjE2MzAzMjcwNDMsIm5iZiI6MTYzMDMyMzQ0MywianRpIjoiRjhrODJZRjBXWVl3ZXhFdiIsInN1YiI6NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.p5iNugydppdPBRTFXnJyPEPDIPXt-paDcSR-QQhe3u8",
+                  "description": "user token logged",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "s.ganji73@gmail.com",
+                  "description": "new email",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "sadeghshaikhi77@gmail.com",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/updateUserEmail"
+          },
+          "response": []
+        },
+        {
+          "name": "verifyEmailToken",
+          "_postman_id": "db254bca-123d-4a4c-9986-cbf6cd24203c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjQ0Mzg2LCJleHAiOjE2MzMyNDc5ODYsIm5iZiI6MTYzMzI0NDM4NiwianRpIjoiamx0WFM4MWlhc0FXTmFrQyIsInN1YiI6MiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.jAsMZbqWLWNYy0T0t5CfC01You_1rNtsGVC-Lj6g42Y"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "AlrgetUfkt82GIxdalIKo0X2HmYLeqHU",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/verifyEmailToken"
+          },
+          "response": []
+        },
+        {
+          "name": "signin",
+          "_postman_id": "c3cbe8e4-db28-42ab-b14c-bfc636cbcefb",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": ""
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "email",
+                "value": "S.Ganji73@Gmail.com",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "password",
+                "value": "123456789Ss",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "token",
+                "value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMxNDQ0MzMzLCJleHAiOjE2MzE0NDc5MzMsIm5iZiI6MTYzMTQ0NDMzMywianRpIjoiZmluQ2RVdFVTWDVXRnlTSCIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.BAfOB_T42hIkEp-CD-heoHIT3MQZIZZlnfkvs33y430",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "sadeghshaikhi77@gmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "password",
+                  "value": "123456789Ss",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "S.Ganji73@Gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "Ganji1994@hotmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "password",
+                  "value": "123456789",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/signin",
+            "description": "### expected outputs \n<strong>user</strong>\n      \n    user: {\n       email:email\n       name: name if exists\n       emailState:boolean the email verified\n       verified:  boolean \n     }"
+          },
+          "response": []
+        },
+        {
+          "name": "resendTwoStep",
+          "_postman_id": "5e37b031-5424-42f1-94b0-1c68ef548638",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "TO8ETa1cIfeXpGI8NwEphpurEEve5CEu",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/resendTwoStep"
+          },
+          "response": []
+        },
+        {
+          "name": "verifyTwoStep",
+          "_postman_id": "51f51208-a121-4113-8175-f7915d6fcbf4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "code",
+                  "value": "499544",
+                  "description": "correct code for test",
+                  "type": "text"
+                },
+                {
+                  "key": "code",
+                  "value": "",
+                  "description": "wrong code for test",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "userid",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "token",
+                  "value": "0itNb8bbzBaHsvZa8rmaaAnsspXckbSP",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/verifyTwoStep"
+          },
+          "response": []
+        },
+        {
+          "name": "sendPasswordRecovery",
+          "_postman_id": "690e3a38-6de6-450e-bd90-3fc5602ed3bc",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "s.ganji73@gmail.com",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/sendPasswordRecovery"
+          },
+          "response": []
+        },
+        {
+          "name": "verifyPasswordToken",
+          "_postman_id": "795776fb-4683-4597-a213-91fc11472222",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "e52ZHToIRilVBqFrpiqvQlh1iMKxQ05q",
+                  "description": "token email",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/verifyPasswordToken"
+          },
+          "response": []
+        },
+        {
+          "name": "resetPassword",
+          "_postman_id": "1504ce2f-cf63-4b26-8871-f2feaacc6db7",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "e52ZHToIRilVBqFrpiqvQlh1iMKxQ05q",
+                  "description": "token email verify",
+                  "type": "text"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/resetPassword"
+          },
+          "response": []
+        },
+        {
+          "name": "refresh",
+          "_postman_id": "df5d51b8-46ed-4ee1-bb4a-2c784f1d8331",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/refresh"
+          },
+          "response": []
+        },
+        {
+          "name": "testemail",
+          "_postman_id": "1bd47e27-043f-405e-94d1-c6edbf9885aa",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "email",
+                "value": "Ganji73@Gmail.com",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "password",
+                "value": "123456789",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "token",
+                "value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMxNDQ0MzMzLCJleHAiOjE2MzE0NDc5MzMsIm5iZiI6MTYzMTQ0NDMzMywianRpIjoiZmluQ2RVdFVTWDVXRnlTSCIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.BAfOB_T42hIkEp-CD-heoHIT3MQZIZZlnfkvs33y430",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "email",
+                  "value": "sadeghshaikhi77@gmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "password",
+                  "value": "S123456789s",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "S.Ganji73@Gmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "my1mindpalace123@gmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "password",
+                  "value": "123456789",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/testemail",
+            "description": "### expected outputs \n<strong>user</strong>\n      \n    user: {\n       email:email\n       name: name if exists\n       emailState:boolean the email verified\n       verified:  boolean \n     }"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "7b4dce4b-9059-4553-9a77-b5b78cee3870"
+    },
+    {
+      "name": "Verification",
+      "item": [
+        {
+          "name": "submitForm1",
+          "_postman_id": "e66c4ae5-f505-4f7c-9bf0-c440fea114d0",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzQ4NDQ1OTYsImV4cCI6MTYzNDkzMDk5NiwibmJmIjoxNjM0ODQ0NTk2LCJqdGkiOiJ4eXcxVUh5bklDblB2aEdOIiwic3ViIjoxMTcsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.4e_RwSQj5sVJSfWkqynNYId3wYl08Hwzy_PXSTD046k"
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "fullname",
+                  "value": "سیوان گنجی",
+                  "type": "text"
+                },
+                {
+                  "key": "socialId",
+                  "value": "3720497501",
+                  "type": "text"
+                },
+                {
+                  "key": "fatherName",
+                  "value": "Ahsdf",
+                  "type": "text"
+                },
+                {
+                  "key": "socialIdPic",
+                  "type": "file",
+                  "src": "/C:/Users/SaiwanGanjiDeveloper/Desktop/2021-10-20_10-23-32.png"
+                },
+                {
+                  "key": "birthDate",
+                  "value": "1373/03/04",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/submitForm1"
+          },
+          "response": []
+        },
+        {
+          "name": "submitForm2",
+          "_postman_id": "79dc4673-f6ca-419d-b90f-d6be6e12a209",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzOTQ2NTc1LCJleHAiOjE2MzQxMTkzNzUsIm5iZiI6MTYzMzk0NjU3NSwianRpIjoiVDVUSWhmYUFSVEtGRUpCaiIsInN1YiI6NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9._i_-C53aEUPnSV4WVpxzBge0hVYV0rpxGBz5QFfwbp0"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "province",
+                  "value": "کردستان",
+                  "type": "text"
+                },
+                {
+                  "key": "city",
+                  "value": "سنندج",
+                  "type": "text"
+                },
+                {
+                  "key": "mobile",
+                  "value": "09185197577",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "ی544545454545",
+                  "type": "text"
+                },
+                {
+                  "key": "address",
+                  "value": "fdghfghfghfghfghfghfg",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/submitForm2"
+          },
+          "response": []
+        },
+        {
+          "name": "submitForm3",
+          "_postman_id": "217907a5-24da-418b-ae56-d0f674a68562",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzOTUwMTM5LCJleHAiOjE2MzQxMjI5MzksIm5iZiI6MTYzMzk1MDEzOSwianRpIjoiZUhtc0R6MDZLMGVhWjgyYiIsInN1YiI6NiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.zCD8elHlFdSLTb95uJMtMZzNPFtRcPawN3SYk0za7lg"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "account",
+                  "value": "4521554457",
+                  "type": "text"
+                },
+                {
+                  "key": "creditCard",
+                  "value": "6104337854736508",
+                  "type": "text"
+                },
+                {
+                  "key": "sheba",
+                  "value": "123456789012345678901231",
+                  "type": "text"
+                },
+                {
+                  "key": "creditCardPicture",
+                  "type": "file",
+                  "src": "/C:/Users/SaiwanGanjiDeveloper/Desktop/download.jpg"
+                },
+                {
+                  "key": "bank",
+                  "type": "text",
+                  "value": "Spahe"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/submitForm3"
+          },
+          "response": []
+        },
+        {
+          "name": "submitForm4",
+          "_postman_id": "7b56b406-e4a4-478a-8f95-587b8e9ab267",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzQwNzIwMDYsImV4cCI6MTYzNDE1ODQwNiwibmJmIjoxNjM0MDcyMDA2LCJqdGkiOiJ2NG1VbGE3MzVMMWtwRFp4Iiwic3ViIjo3LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.yMfoVP7ljJ5iZvczcY-Mhe395E8qPTxSiQpyb92iszI"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "bankAccount",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "creditCard",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "sheba",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "creditCardPicture",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address",
+                  "type": "file",
+                  "value": null,
+                  "disabled": true
+                },
+                {
+                  "key": "legalBindPicture",
+                  "type": "file",
+                  "src": "/C:/Users/SaiwanGanjiDeveloper/Desktop/2021-10-08_11-51-06.png"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": {
+              "raw": "{{client_url}}/api/v1/submitForm4",
+              "host": [
+                "{{client_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "submitForm4"
+              ],
+              "query": [
+                {
+                  "key": "legalBindPicture",
+                  "value": null,
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "getVerificationData",
+          "_postman_id": "7722652d-8cac-4c1f-8063-75ee0cd9154d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOUpdateStatusTransferMoneylwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzQ1NTQzOTksImV4cCI6MTYzNDY0MDc5OSwibmJmIjoxNjM0NTU0Mzk5LCJqdGkiOiJiZnFGQUlBMWoxRG45NVpLIiwic3ViIjo3LCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.BGmGmOxp7Vuc5IzEIuDcn6E5GJf07yd1w8PJ2ifgByc"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "bankAccount",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "creditCard",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "sheba",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "creditCardPicture",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address",
+                  "type": "file",
+                  "value": null,
+                  "disabled": true
+                },
+                {
+                  "key": "legalBindPicture",
+                  "type": "file",
+                  "src": "/F:/Desktop File/WhatsApp Image 2021-09-05 at 2.18.58 PM.jpeg",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": {
+              "raw": "{{client_url}}/api/v1/getVerificationData",
+              "host": [
+                "{{client_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "getVerificationData"
+              ],
+              "query": [
+                {
+                  "key": "legalBindPicture",
+                  "value": null,
+                  "type": "text",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "getVerificationErrors",
+          "_postman_id": "5931f3af-f615-4895-9491-1289efc6107f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getVerificationErrors"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "a424b4eb-97a6-4f1e-994f-a99462f76f8e"
+    },
+    {
+      "name": "User",
+      "item": [
+        {
+          "name": "getUserInfo",
+          "_postman_id": "f2cc89cc-2c2b-4ef6-bb3f-834b38e1ad58",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAwODkyMTEsImV4cCI6MTY1MDE3NTYxMSwibmJmIjoxNjUwMDg5MjExLCJqdGkiOiIwMWdEdUJzM1dhSENMODFwIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.vImqHNT_hHh_Cw4BY34lextB03YY-q-vKvtdHCWuoIo"
+              }
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Beare eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwODIzOTM0LCJleHAiOjE2MzA4Mjc1MzQsIm5iZiI6MTYzMDgyMzkzNCwianRpIjoiM3NOQTZWNjRhR0hEVkxTMSIsInN1YiI6MzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.fTHknqOK3CX1UpQYCr3NSKbOmpyHnJkq6AZTCvLjBLA",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "token",
+                "value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwODIzOTM0LCJleHAiOjE2MzA4Mjc1MzQsIm5iZiI6MTYzMDgyMzkzNCwianRpIjoiM3NOQTZWNjRhR0hEVkxTMSIsInN1YiI6MzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.fTHknqOK3CX1UpQYCr3NSKbOmpyHnJkq6AZTCvLjBLA",
+                "type": "text",
+                "disabled": true
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwODIzOTM0LCJleHAiOjE2MzA4Mjc1MzQsIm5iZiI6MTYzMDgyMzkzNCwianRpIjoiM3NOQTZWNjRhR0hEVkxTMSIsInN1YiI6MzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.fTHknqOK3CX1UpQYCr3NSKbOmpyHnJkq6AZTCvLjBLA",
+                "type": "text",
+                "disabled": true
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "token",
+                  "value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMwODIzOTM0LCJleHAiOjE2MzA4Mjc1MzQsIm5iZiI6MTYzMDgyMzkzNCwianRpIjoiM3NOQTZWNjRhR0hEVkxTMSIsInN1YiI6MzMsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.fTHknqOK3CX1UpQYCr3NSKbOmpyHnJkq6AZTCvLjBLA",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getUserInfo"
+          },
+          "response": []
+        },
+        {
+          "name": "sendMobileConfirm",
+          "_postman_id": "a22f5dad-2274-4fa2-9b76-8004c0c59b3b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjUwNDcyLCJleHAiOjE2MzMyNTQwNzIsIm5iZiI6MTYzMzI1MDQ3MiwianRpIjoiSnM3cEdneGd3Qktra0ZkRyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.rcYlN_OgjKYFi5dzArPNOk0bMqbZYqtT_HTBJPFMCf4"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "mobile",
+                  "value": "09035478091",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/sendMobileConfirm"
+          },
+          "response": []
+        },
+        {
+          "name": "editUserContact",
+          "_postman_id": "423d4901-8742-44b4-95b6-3b884af96e6e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjUwNDcyLCJleHAiOjE2MzMyNTQwNzIsIm5iZiI6MTYzMzI1MDQ3MiwianRpIjoiSnM3cEdneGd3Qktra0ZkRyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.rcYlN_OgjKYFi5dzArPNOk0bMqbZYqtT_HTBJPFMCf4"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "province",
+                  "value": "Kurditsan",
+                  "type": "text"
+                },
+                {
+                  "key": "city",
+                  "value": "Sanandj",
+                  "type": "text"
+                },
+                {
+                  "key": "mobile",
+                  "value": "09035478091",
+                  "type": "text"
+                },
+                {
+                  "key": "phone",
+                  "value": "08733178139",
+                  "type": "text"
+                },
+                {
+                  "key": "address",
+                  "value": "sanandaj-17 street",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/editUserContact"
+          },
+          "response": []
+        },
+        {
+          "name": "activateTwoStep",
+          "_postman_id": "e35dbb38-eaa2-48dc-b419-366db0351435",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDYyOTcwNzAsImV4cCI6MTY0NjM4MzQ3MCwibmJmIjoxNjQ2Mjk3MDcwLCJqdGkiOiJkQmxFb0tOb1BDYXk4cUtJIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.voCNQ2VVpRs6di72Iy74YGQtHVIjEweoi91jm1APZn4"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "province",
+                  "value": "Kurditsan",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "city",
+                  "value": "سنندجSasa",
+                  "type": "text"
+                },
+                {
+                  "key": "mobile",
+                  "value": "09185197577",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "phone",
+                  "value": "0873232323",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address",
+                  "value": "sanandaj",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/activateTwoStep"
+          },
+          "response": []
+        },
+        {
+          "name": "deactivateTwoStep",
+          "_postman_id": "7b7c2daa-87c2-4a6e-ac19-d9a806262c7a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDYyOTY5MjEsImV4cCI6MTY0NjM4MzMyMSwibmJmIjoxNjQ2Mjk2OTIxLCJqdGkiOiJWZ2R5aEpLM3U5MmRCTk1WIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.b4OfFF35WI8gHM4OrF3ugVDICNlqQQSBWhK2efSnGtc"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "province",
+                  "value": "Kurditsan",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "city",
+                  "value": "سنندجSasa",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "mobile",
+                  "value": "09185197577",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "phone",
+                  "value": "0873232323",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "address",
+                  "value": "sanandaj",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/deactivateTwoStep"
+          },
+          "response": []
+        },
+        {
+          "name": "changePassword",
+          "_postman_id": "94c1c9bb-754e-4775-bc26-6c9157bd6053",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjUxNzIxLCJleHAiOjE2MzMyNTUzMjEsIm5iZiI6MTYzMzI1MTcyMSwianRpIjoiR0hiU0VZYU5PVDZvZFVBRyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.DJHbtdkC_LWH5e1eVu7l9Ryx5Fy6i2-RzqzFD8qCCJQ"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "oldPassword",
+                  "value": "12345678",
+                  "type": "text"
+                },
+                {
+                  "key": "newPassword",
+                  "value": "123456789",
+                  "type": "text"
+                },
+                {
+                  "key": "",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "",
+                  "value": "",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/changePassword"
+          },
+          "response": []
+        },
+        {
+          "name": "getNews",
+          "_postman_id": "5c6a455b-392f-4274-9b15-817cb7604523",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzUxNTU5ODksImV4cCI6MTYzNTI0MjM4OSwibmJmIjoxNjM1MTU1OTg5LCJqdGkiOiJnck9kWTRQc3BzMGJCcDJvIiwic3ViIjoxMTcsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.A71ahTjPG-jQlWvWQYoGgsqKzBHgNH3Zx5tSmTdBgOM"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getNews"
+          },
+          "response": []
+        },
+        {
+          "name": "getNotifications",
+          "_postman_id": "8b20485d-e21a-4f66-8c39-2d8f39dad92a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk5MTgxMTAsImV4cCI6MTY1MDAwNDUxMCwibmJmIjoxNjQ5OTE4MTEwLCJqdGkiOiJJQXdmWmg0eEJDeUxaT3dOIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.MnRV7TO5xIfFJy-2DSlysBbSvW-Hx_BtvoalQore43I"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getNotifications"
+          },
+          "response": []
+        },
+        {
+          "name": "getProfileInfo",
+          "_postman_id": "933312a2-1f22-45f0-b9f7-c7945dd7dda7",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzODUzNzI2LCJleHAiOjE2MzQwMjY1MjYsIm5iZiI6MTYzMzg1MzcyNiwianRpIjoiSU9EbU5uNFpFYWV1Rkp0VSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.uijRBy9sF2GetQTR7eu-_9GiQT7TqXrISMCRe05wDvc"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getProfileInfo"
+          },
+          "response": []
+        },
+        {
+          "name": "readNotifications",
+          "_postman_id": "b4f71222-c230-4547-acba-4ee409d8d7f4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/readNotifications"
+          },
+          "response": []
+        },
+        {
+          "name": "getListFriends",
+          "_postman_id": "c47ca2a6-c556-49ce-a7b7-7101932bf69c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDYyODUyODAsImV4cCI6MTY0NjM3MTY4MCwibmJmIjoxNjQ2Mjg1MjgwLCJqdGkiOiI0RUFoRVM1S2REcU1SSWtlIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.-R2_qhuHNR85Xsqdj4lVqjJByzXnYUlQno-nJr09pKQ"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getListFriends"
+          },
+          "response": []
+        },
+        {
+          "name": "2FA",
+          "_postman_id": "1981dbce-972d-46d2-bdfb-5261cb2de913",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/TwoFA"
+          },
+          "response": []
+        },
+        {
+          "name": "generateQrCode",
+          "_postman_id": "f8984d08-55f6-4e6f-a74c-8777105ff8bf",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "secretKey",
+                  "value": "W4AEALNPXG6DL2GU",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "s.ganji73@Gmail.com",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/generateQrCode"
+          },
+          "response": []
+        },
+        {
+          "name": "checkVerifyToTP",
+          "_postman_id": "c12b2ea9-8b3e-464c-9d44-80589f7909ae",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "secret",
+                  "value": "W4AEALNPXG6DL2GU",
+                  "type": "text"
+                },
+                {
+                  "key": "code",
+                  "value": "186084",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/checkVerifyToTP"
+          },
+          "response": []
+        },
+        {
+          "name": "TOTP",
+          "_postman_id": "0da41edf-3ff5-485a-98e4-198dccd6635b",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDY1NDgyODAsImV4cCI6MTY0NjYzNDY4MCwibmJmIjoxNjQ2NTQ4MjgwLCJqdGkiOiJKSVc5Q2Q2R2NtQnZ1ZW9SIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.pPtJytraKXbDK43FIr26UMEFdw4FilixvFvKEdXkSlk"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/TOTP"
+          },
+          "response": []
+        },
+        {
+          "name": "activeGoogle2fa",
+          "_postman_id": "2feb4ec8-640a-46a4-ae0a-54fbfc093d52",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDkwNTcyODQsImV4cCI6MTY0OTE0MzY4NCwibmJmIjoxNjQ5MDU3Mjg0LCJqdGkiOiIzaTh2Q0NDek1QYkliUlVZIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.L-l17gJkfHqoHMpsdSbgstORXYANMMDk54opqK40X5s"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/activeGoogle2fa"
+          },
+          "response": []
+        },
+        {
+          "name": "validateGoogle2fa",
+          "_postman_id": "f5adfbb3-0ea6-4271-a6c3-dc5b5a597e05",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDY4MTAzNzUsImV4cCI6MTY0Njg5Njc3NSwibmJmIjoxNjQ2ODEwMzc1LCJqdGkiOiJaR0Q4emJUWFFETkRGUUtZIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.50EgFOLkkL73m2N9rMOAXcO14HeFlt5Nnpe3zJvUlEw"
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "code",
+                  "value": "870186",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/validateGoogle2fa"
+          },
+          "response": []
+        },
+        {
+          "name": "disableGoogle2fa",
+          "_postman_id": "8255db5b-6e10-4ab3-b9ba-84ebebcf2f17",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDY4MTAzNzUsImV4cCI6MTY0Njg5Njc3NSwibmJmIjoxNjQ2ODEwMzc1LCJqdGkiOiJaR0Q4emJUWFFETkRGUUtZIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.50EgFOLkkL73m2N9rMOAXcO14HeFlt5Nnpe3zJvUlEw"
+              }
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "code",
+                  "value": "578340",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/disableGoogle2fa"
+          },
+          "response": []
+        },
+        {
+          "name": "getPriceHistory",
+          "_postman_id": "80498196-7f43-4715-a2c6-dd060dff3a1c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDkyNDcyNjQsImV4cCI6MTY0OTMzMzY2NCwibmJmIjoxNjQ5MjQ3MjY0LCJqdGkiOiJYcGh0Z3h6TjRFQ05NcDV5Iiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.kBGfFYYOQOEyHmouBy4LFv359gwzCUvtODFtKoyTVW4"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "day",
+                  "value": "2",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getPriceHistory"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "1f3b7bce-51dd-420b-9360-9fad383efb9d"
+    },
+    {
+      "name": "CreditCard",
+      "item": [
+        {
+          "name": "updateCreditCard",
+          "_postman_id": "de952111-54bc-4071-a808-ec193dce5f0e",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjQ5MTU4LCJleHAiOjE2MzMyNTI3NTgsIm5iZiI6MTYzMzI0OTE1OCwianRpIjoiSzlGTkJLOXhZRWdJRWZMaiIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.Uq5dHDSDa14BH7g9AijTgKUoQexvDzdNRPeWX1-HypQ"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "bank",
+                  "value": "Meliddddddddd",
+                  "type": "text"
+                },
+                {
+                  "key": "account",
+                  "value": "123456789",
+                  "type": "text"
+                },
+                {
+                  "key": "creditCard",
+                  "value": "987654321",
+                  "type": "text"
+                },
+                {
+                  "key": "sheba",
+                  "value": "12222222222222212",
+                  "type": "text"
+                },
+                {
+                  "key": "cardId",
+                  "value": "1",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/updateCreditCard"
+          },
+          "response": []
+        },
+        {
+          "name": "addCreditCard",
+          "_postman_id": "341f2956-f95b-42ab-a46b-ac3d58802e84",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzcwNjU0NDQsImV4cCI6MTYzNzE1MTg0NCwibmJmIjoxNjM3MDY1NDQ0LCJqdGkiOiJEbUxXR1ZEbXVpS1c0eHlQIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PSDMwh3maXWwYk7RnYa3q2WcQu2FQx11uwDiUjVIkzU"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "bank",
+                  "value": "Mallet",
+                  "type": "text"
+                },
+                {
+                  "key": "account",
+                  "value": "4521554457",
+                  "type": "text"
+                },
+                {
+                  "key": "creditCard",
+                  "value": "6104337854736509",
+                  "type": "text"
+                },
+                {
+                  "key": "sheba",
+                  "value": "12654564897842311478014",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/addCreditCard"
+          },
+          "response": []
+        },
+        {
+          "name": "deleteCreditCard",
+          "_postman_id": "f32bd9e2-6f80-4adc-97ff-60cbb741143c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMzMjUxODEwLCJleHAiOjE2MzMyNTU0MTAsIm5iZiI6MTYzMzI1MTgxMCwianRpIjoiQnBFbTZOSTU1a1dwbFdjbyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.KFqn63LukfofgkFB15Qxyzm5Bd-fqOksDXwxzWPlbWU"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "cardId",
+                  "value": "1",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/deleteCreditCard"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "c50ce8bd-ec34-4551-99a1-9a50702db145"
+    },
+    {
+      "name": "wallet",
+      "item": [
+        {
+          "name": "rialWallet",
+          "item": [
+            {
+              "name": "depositRialDargah",
+              "_postman_id": "2defccaa-881d-4a90-a301-7cf5adbdccd5",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "cardId",
+                      "value": "",
+                      "type": "text"
+                    },
+                    {
+                      "key": "amount",
+                      "value": "",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/depositRialDargah"
+              },
+              "response": []
+            },
+            {
+              "name": "depositRialShetabi",
+              "_postman_id": "c80e16de-a270-4309-835f-a41ed2c9d801",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "amount",
+                      "value": "150000",
+                      "type": "text"
+                    },
+                    {
+                      "key": "cardId",
+                      "value": "79",
+                      "type": "text"
+                    },
+                    {
+                      "key": "trackingNumber",
+                      "value": "45212456456",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiverBank",
+                      "value": "ملت",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receipt",
+                      "type": "file",
+                      "src": "/C:/Users/SaiwanGanjiDeveloper/Desktop/download (1).jpg"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/depositRialShetabi"
+              },
+              "response": []
+            },
+            {
+              "name": "withdrawRial",
+              "_postman_id": "2af435dc-9bfa-464d-9050-e926a5ce7689",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDg4NTcxMDIsImV4cCI6MTY0ODk0MzUwMiwibmJmIjoxNjQ4ODU3MTAyLCJqdGkiOiJkOWZKd3V5VEdNZzloVm8wIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.H7PxXePzujqB4e85QgqrHR0kBQD4FQWqZVbaIIU22TY"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "amount",
+                      "value": "12000",
+                      "type": "text"
+                    },
+                    {
+                      "key": "cardId",
+                      "value": "79",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/withdrawRial"
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "796d9c03-6c33-49fa-b9f4-57a6014d2513",
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "tetherWallet",
+          "item": [
+            {
+              "name": "depositTether",
+              "_postman_id": "d02f8da2-12fd-414b-8091-1166df7b9e0b",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "transferNetwork",
+                      "value": "TRC",
+                      "type": "text"
+                    },
+                    {
+                      "key": "wallet",
+                      "value": "20000",
+                      "type": "text"
+                    },
+                    {
+                      "key": "amount",
+                      "value": "200",
+                      "type": "text"
+                    },
+                    {
+                      "key": "TxID",
+                      "value": "34534534534534",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/depositTether"
+              },
+              "response": []
+            },
+            {
+              "name": "withdrawTether",
+              "_postman_id": "eb6425df-989d-45c2-933c-cefd8fcf03ac",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "walletId",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "transferNetwork",
+                      "value": "TRC20",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "amount",
+                      "value": "20",
+                      "type": "text"
+                    },
+                    {
+                      "key": "coinId",
+                      "value": "1",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/withdrawTether"
+              },
+              "response": []
+            },
+            {
+              "name": "getWalletAddresses",
+              "_postman_id": "3e9851be-3319-4750-9685-5077344c2b42",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMyMTM2MjU5LCJleHAiOjE2MzIxMzk4NTksIm5iZiI6MTYzMjEzNjI1OSwianRpIjoidjJrbWRzN0YyUjM0WjdzdyIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.gK6j6tFrlv5xQY_3kDT1eXCUyqt5r1JuuM2-kf6Wqbo"
+                  }
+                },
+                "method": "GET",
+                "header": [],
+                "url": "{{client_url}}/api/v1/getWalletAddresses"
+              },
+              "response": []
+            },
+            {
+              "name": "verifyTetherWithdrawCode",
+              "_postman_id": "7e7b250e-84fc-4372-ad3d-2b8ae85d56f4",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "wallet",
+                      "value": "456456456456",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "code",
+                      "value": "391487",
+                      "type": "text"
+                    },
+                    {
+                      "key": "withdrawId",
+                      "value": "793",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/verifyTetherWithdrawCode"
+              },
+              "response": []
+            },
+            {
+              "name": "resendTetherWithdrawCode",
+              "_postman_id": "e56a2957-4ea7-4a03-b7ab-1bebdcd0f336",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDkzMTUxMjQsImV4cCI6MTY0OTQwMTUyNCwibmJmIjoxNjQ5MzE1MTI0LCJqdGkiOiJCTTFCbVliQTVuVjJqS2paIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dJ8AaqIhDYHvEK2RDBGK2E2Ceto9cuoKIF2iDuOMFCw"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "wallet",
+                      "value": "456456456456",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "code",
+                      "value": "ERC20",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "withdrawId",
+                      "value": "755",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/resendTetherWithdrawCode"
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "d8055d87-0a38-4ba2-8285-9b8941cba47b",
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "SaveWallet",
+          "item": [
+            {
+              "name": "saveWalletUser",
+              "_postman_id": "b0f060e5-f6cd-478c-9ca1-09c33a407e9d",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk0Nzk5MjYsImV4cCI6MTY0OTU2NjMyNiwibmJmIjoxNjQ5NDc5OTI2LCJqdGkiOiJvT2JDYkRVblFFNTZyYjJBIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Afw0gR0e81FYwXPh_fHD8gxMKloSkR-XfWenTsiCY2w"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "walletName",
+                      "value": "کیف پول 3",
+                      "type": "text"
+                    },
+                    {
+                      "key": "walletAddress",
+                      "value": "TL5TEsq6roBb4LGGCiuhwkx4u51Ep7ojcr",
+                      "type": "text"
+                    },
+                    {
+                      "key": "coinId",
+                      "value": "1",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/saveWalletUser"
+              },
+              "response": []
+            },
+            {
+              "name": "getWalletUser",
+              "_postman_id": "883b2329-e7cd-41c5-831c-6795337d599a",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDkzMTUxMjQsImV4cCI6MTY0OTQwMTUyNCwibmJmIjoxNjQ5MzE1MTI0LCJqdGkiOiJCTTFCbVliQTVuVjJqS2paIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.dJ8AaqIhDYHvEK2RDBGK2E2Ceto9cuoKIF2iDuOMFCw"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "coinId",
+                      "value": "1",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/getWalletUser"
+              },
+              "response": []
+            },
+            {
+              "name": "deleteWalletUser",
+              "_postman_id": "4e4b516d-2361-46fe-ab6f-729c1fb2b3ac",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDkyMjA5MDQsImV4cCI6MTY0OTMwNzMwNCwibmJmIjoxNjQ5MjIwOTA0LCJqdGkiOiJZRjN2UEJ5SkFDNTBSQ0x0Iiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.P_K8RmPb6QwwxlqlyEeJMw4wjOznSuupvg9XASuoNBI"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "walletId",
+                      "value": "2",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/deleteWalletUser"
+              },
+              "response": []
+            },
+            {
+              "name": "TsaveWalletUser",
+              "_postman_id": "a26f239d-c92a-4800-8863-42ba8820d3d5",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk0Nzk5MjYsImV4cCI6MTY0OTU2NjMyNiwibmJmIjoxNjQ5NDc5OTI2LCJqdGkiOiJvT2JDYkRVblFFNTZyYjJBIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Afw0gR0e81FYwXPh_fHD8gxMKloSkR-XfWenTsiCY2w"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "walletName",
+                      "value": "کیف پول 5",
+                      "type": "text"
+                    },
+                    {
+                      "key": "walletAddress",
+                      "value": "TEKgHpTo2KAnH67rv9iPhJ4LBY1cS5fFF9",
+                      "type": "text"
+                    },
+                    {
+                      "key": "coinId",
+                      "value": "1",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/TsaveWalletUser"
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "7cf98d87-11be-43d3-a7df-bcbd4e27d388",
+          "_postman_isSubFolder": true
+        },
+        {
+          "name": "internalWallet",
+          "item": [
+            {
+              "name": "validateUserCode",
+              "_postman_id": "0e6b8614-47a0-41ec-bc5f-c6da403d9344",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "9326aRy39Yty",
+                      "description": "Sadeq",
+                      "type": "text"
+                    },
+                    {
+                      "key": "code",
+                      "value": "7501R9xVkCDr",
+                      "description": "Saiwan",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "cdoe",
+                      "value": "kawehajezi",
+                      "description": "kawehajezi",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "cdoe",
+                      "value": "6919f2q6MByR",
+                      "description": "ghazal",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/validateUserCode"
+              },
+              "response": []
+            },
+            {
+              "name": "internalTransfer",
+              "_postman_id": "919fffc0-8242-4ec9-8397-73a3c4bfc877",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAzNjEwMDIsImV4cCI6MTY1MDQ0NzQwMiwibmJmIjoxNjUwMzYxMDAyLCJqdGkiOiJCeWdIeVI5dVpaNlRsS1RnIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.6aB00GPk4ZfYOg-skR7I3Z55xHXU-XJZBu4iQHu5LcI"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "receiverId",
+                      "value": "9326aRy39Yty",
+                      "description": "7501R9xVkCDr   ",
+                      "type": "text"
+                    },
+                    {
+                      "key": "amount",
+                      "value": "10",
+                      "type": "text"
+                    },
+                    {
+                      "key": "coinId",
+                      "value": "1",
+                      "type": "text"
+                    },
+                    {
+                      "key": "receiverId",
+                      "value": "7501R9xVkCDr",
+                      "type": "text",
+                      "disabled": true
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/internalTransfer"
+              },
+              "response": []
+            },
+            {
+              "name": "confirmTransfer",
+              "_postman_id": "fc9b4485-fb3c-463a-bd3d-0a57a4228cdb",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4NDYxMDksImV4cCI6MTY0OTkzMjUwOSwibmJmIjoxNjQ5ODQ2MTA5LCJqdGkiOiJmNDNJdFo1VEhVUUlKS1RDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.PnIcB4lDyflbaFgNQhY83eN_PWkXLMYU6PKwpThpQ9g"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "965022",
+                      "type": "text"
+                    },
+                    {
+                      "key": "transferToken",
+                      "value": "ad3dd6ac8808817d44e1fdfd392a3b2a",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/confirmTransfer"
+              },
+              "response": []
+            },
+            {
+              "name": "resendTransferToken",
+              "_postman_id": "b3ab730d-811b-4201-8235-d29b4467b18d",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "auth": {
+                  "type": "bearer",
+                  "bearer": {
+                    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAzNjEwMDIsImV4cCI6MTY1MDQ0NzQwMiwibmJmIjoxNjUwMzYxMDAyLCJqdGkiOiJCeWdIeVI5dVpaNlRsS1RnIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.6aB00GPk4ZfYOg-skR7I3Z55xHXU-XJZBu4iQHu5LcI"
+                  }
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                  "mode": "formdata",
+                  "formdata": [
+                    {
+                      "key": "code",
+                      "value": "965022",
+                      "type": "text",
+                      "disabled": true
+                    },
+                    {
+                      "key": "transferToken",
+                      "value": "889c3523ab8f53bf937946a44f96222dd65",
+                      "type": "text"
+                    }
+                  ],
+                  "options": {
+                    "formdata": {}
+                  }
+                },
+                "url": "{{client_url}}/api/v1/resendTransferToken"
+              },
+              "response": []
+            }
+          ],
+          "_postman_id": "ce8f7a5e-e0a0-4558-ad2f-e13267e04682",
+          "_postman_isSubFolder": true
+        }
+      ],
+      "_postman_id": "02403651-6c24-4d1b-b75c-f20e361208db"
+    },
+    {
+      "name": "Market",
+      "item": [
+        {
+          "name": "sellTether",
+          "_postman_id": "61b7dd40-5c8c-4544-a25b-5ad64be090c0",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDg4NTcxMDIsImV4cCI6MTY0ODk0MzUwMiwibmJmIjoxNjQ4ODU3MTAyLCJqdGkiOiJkOWZKd3V5VEdNZzloVm8wIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.H7PxXePzujqB4e85QgqrHR0kBQD4FQWqZVbaIIU22TY"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "amount",
+                  "value": "12",
+                  "type": "text"
+                },
+                {
+                  "key": "unitPrice",
+                  "value": "27198",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/sellTether"
+          },
+          "response": []
+        },
+        {
+          "name": "buyTether",
+          "_postman_id": "83d6066d-2646-4798-8ea5-5bc8abda4d16",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9jbGllbnRhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDg4NTcxMDIsImV4cCI6MTY0ODk0MzUwMiwibmJmIjoxNjQ4ODU3MTAyLCJqdGkiOiJkOWZKd3V5VEdNZzloVm8wIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.H7PxXePzujqB4e85QgqrHR0kBQD4FQWqZVbaIIU22TY"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "amount",
+                  "value": "2",
+                  "type": "text"
+                },
+                {
+                  "key": "unitPrice",
+                  "value": "27545",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/buyTether"
+          },
+          "response": []
+        },
+        {
+          "name": "getHistory",
+          "_postman_id": "57609e4c-4d49-4be0-b355-6aa18108c439",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAzNTA3NTgsImV4cCI6MTY1MDQzNzE1OCwibmJmIjoxNjUwMzUwNzU4LCJqdGkiOiJuYXVWYTcyQXpMM25qV0VYIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.rwde2HAyuYRIgECd6BbHCB2hXRqg99GdJ-bMB8VY_aI"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "type",
+                  "value": "withdrawTether",
+                  "type": "text"
+                },
+                {
+                  "key": "page",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "rowsPerPage",
+                  "value": "2",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getHistory"
+          },
+          "response": []
+        },
+        {
+          "name": "cancelTransaction",
+          "_postman_id": "cd7471a5-9795-49ee-a894-e689fe7e30b5",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMyMzkyMzI4LCJleHAiOjE2MzIzOTU5MjgsIm5iZiI6MTYzMjM5MjMyOCwianRpIjoiZUhqbXYyZWw3WXdsa3VDUyIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.wF2IoNss80zvlM6hITrHzOIEc2cXYajquVhzXRJPAI4"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "type",
+                  "value": "withdrawRial",
+                  "type": "text"
+                },
+                {
+                  "key": "id",
+                  "value": "4",
+                  "type": "text"
+                },
+                {
+                  "key": "rowsPerPage",
+                  "value": "6",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/cancelTransaction"
+          },
+          "response": []
+        },
+        {
+          "name": "getLatestTransactions",
+          "_postman_id": "fb825a49-ad2f-4e37-adf3-f368e3b77f86",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAzNTA3NTgsImV4cCI6MTY1MDQzNzE1OCwibmJmIjoxNjUwMzUwNzU4LCJqdGkiOiJuYXVWYTcyQXpMM25qV0VYIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.rwde2HAyuYRIgECd6BbHCB2hXRqg99GdJ-bMB8VY_aI"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "count",
+                  "value": "10",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getLatestTransactions"
+          },
+          "response": []
+        },
+        {
+          "name": "getCartBank",
+          "_postman_id": "a43f7139-8ae4-4980-82cb-2c01c3ae5b45",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzczOTg5MzksImV4cCI6MTYzNzQ4NTMzOSwibmJmIjoxNjM3Mzk4OTM5LCJqdGkiOiJiUktDTHFPZ2tVdmpnalNKIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.goAY5q-3BVQP9-kFjHJbB5Jh_oLRMH07Lz4TTrUlQMc"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getCardBank"
+          },
+          "response": []
+        },
+        {
+          "name": "coin",
+          "_postman_id": "0166ccd1-1f3a-4db0-868b-92bb01883799",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/coin"
+          },
+          "response": []
+        },
+        {
+          "name": "getCryptoCurrencies",
+          "_postman_id": "c2481b4e-9c94-4160-8f1f-c247bb9607cd",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4MzQxMjIsImV4cCI6MTY0OTkyMDUyMiwibmJmIjoxNjQ5ODM0MTIyLCJqdGkiOiJkeDBHaFM3QWJtSEtMZHlNIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.ZPPR3Qcs_8g4ub3ZoNUG_NWHvQm93W_7-GMZNGc1zWk"
+              }
+            },
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/getCryptoCurrencies"
+          },
+          "response": []
+        },
+        {
+          "name": "getCryptoInfo",
+          "_postman_id": "60132e72-31c8-4eb6-a8cb-4f134f067cf6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4MzQxMjIsImV4cCI6MTY0OTkyMDUyMiwibmJmIjoxNjQ5ODM0MTIyLCJqdGkiOiJkeDBHaFM3QWJtSEtMZHlNIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.ZPPR3Qcs_8g4ub3ZoNUG_NWHvQm93W_7-GMZNGc1zWk"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "id",
+                  "value": "2",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/getCryptoInfo"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "6528c85f-de6d-434c-ad46-e9e94487d466"
+    },
+    {
+      "name": "TestPartAPI",
+      "item": [
+        {
+          "name": "alertRejectUser",
+          "_postman_id": "31918630-7a26-4fcf-9e4c-ff096aa6aca6",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/alertRejectUser"
+          },
+          "response": []
+        },
+        {
+          "name": "alertUserNotAuth",
+          "_postman_id": "20b83a2e-253d-40be-8983-6d67e18734f0",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/alertUser"
+          },
+          "response": []
+        },
+        {
+          "name": "testwebservice",
+          "_postman_id": "f70b3af7-a808-442f-957e-febe7be4cdda",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/testwebservice"
+          },
+          "response": []
+        },
+        {
+          "name": "SendEmail",
+          "_postman_id": "c421c8ca-c68f-457f-85ad-43b18348c497",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": null
+          },
+          "response": []
+        },
+        {
+          "name": "testnoti",
+          "_postman_id": "5d22d8e2-f2e3-4d23-b138-fcd446715e33",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/testnoti"
+          },
+          "response": []
+        },
+        {
+          "name": "testemail",
+          "_postman_id": "3a604ba4-8940-4b13-82f9-199c4888d74d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true,
+            "disabledSystemHeaders": {}
+          },
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "sadeq",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "sadeqsheikhi@hotmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "topic",
+                  "value": "weblog",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "phone",
+                  "value": "09182958875",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "contentMessage",
+                  "value": "this is some text for this",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "s.ganji73@Gmail.com",
+                  "type": "text"
+                },
+                {
+                  "key": "email",
+                  "value": "Ganji1994@hotmail.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "smamhtk@yahoo.com",
+                  "type": "text",
+                  "disabled": true
+                },
+                {
+                  "key": "email",
+                  "value": "bzhiwzhin@gmail.com",
+                  "type": "text",
+                  "disabled": true
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{base_url}}/api/v1/testemail"
+          },
+          "response": []
+        },
+        {
+          "name": "noti",
+          "_postman_id": "1e56a6fb-bb04-44a1-8be4-8a94074f1b41",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/noti"
+          },
+          "response": []
+        },
+        {
+          "name": "postman",
+          "_postman_id": "444d5c73-7ef5-4627-86f1-b31a83463d76",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/postman"
+          },
+          "response": []
+        },
+        {
+          "name": "blogtest",
+          "_postman_id": "5a93a217-b9bd-4824-9daa-9f8d9aa0512a",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/api/v1/blog?category=آموزش&postPerPage=3&page=1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "blog"
+              ],
+              "query": [
+                {
+                  "key": "category",
+                  "value": "آموزش"
+                },
+                {
+                  "key": "postPerPage",
+                  "value": "3"
+                },
+                {
+                  "key": "page",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "instagram",
+          "_postman_id": "ed8dfee2-d1d2-4809-ad39-cc1efefb553f",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              }
+            ],
+            "url": "{{base_url}}/api/v1/instagram"
+          },
+          "response": []
+        },
+        {
+          "name": "https://ok-ex.io/server/api/users/",
+          "_postman_id": "e1b05acc-4403-4d27-9ac1-01c52a72b4e3",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "https://ok-ex.io/server/api/users/"
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "_postman_id": "6d4635e2-2aa8-405e-a064-caaee4622484",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Accept-Charset",
+                "value": "utf-8",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "NationalCode",
+                  "value": "3720497501",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "http://10.249.34.197/reservation/Default.aspx/CheckBrowser"
+          },
+          "response": []
+        },
+        {
+          "name": "clientapi",
+          "_postman_id": "4f997a79-06f4-4b6b-81c1-9c800ea064c2",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "clientapi.tether-bank.com/api/v1/blogtest?category=راهنمای-تتر-بانک",
+              "host": [
+                "clientapi",
+                "tether-bank",
+                "com"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "blogtest"
+              ],
+              "query": [
+                {
+                  "key": "category",
+                  "value": "راهنمای-تتر-بانک"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "SendEmail",
+          "_postman_id": "8bcbea94-5588-45f3-ba21-dbe81f6d121d",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/SendEmail"
+          },
+          "response": []
+        },
+        {
+          "name": "ClearCache",
+          "_postman_id": "606af095-b984-48fb-92a0-0b8ac7ca2a22",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [],
+              "options": {
+                "formdata": {}
+              }
+            },
+            "url": "{{client_url}}/api/v1/ClearCache"
+          },
+          "response": []
+        },
+        {
+          "name": "sendReportUrl",
+          "_postman_id": "1b9137b6-7fa8-4c5e-8cc8-dc750ba7fa50",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": "{{client_url}}/api/v1/sendReportUrl"
+          },
+          "response": []
+        }
+      ],
+      "_postman_id": "4c91ab4b-ab97-4afc-a4ec-2f61bac9b415"
+    }
+  ]
+}
