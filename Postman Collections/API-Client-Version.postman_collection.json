@@ -3144,7 +3144,7 @@
           "response": []
         },
         {
-          "name": "New Request",
+          "name": "Gateway",
           "id": "9fa31f12-a6f1-4544-b8d7-1897e566d226",
           "protocolProfileBehavior": {
             "disableBodyPruning": true
