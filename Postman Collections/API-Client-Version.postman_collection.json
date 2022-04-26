@@ -3142,6 +3142,18 @@
             "url": "{{client_url}}/api/v1/sendReportUrl"
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "9fa31f12-a6f1-4544-b8d7-1897e566d226",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
         }
       ],
       "id": "4c91ab4b-ab97-4afc-a4ec-2f61bac9b415"
