@@ -337,6 +337,35 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "getPriceHistory",
+          "id": "80498196-7f43-4715-a2c6-dd060dff3a1c",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTA4ODIwMDksImV4cCI6MTY1MDk2ODQwOSwibmJmIjoxNjUwODgyMDA5LCJqdGkiOiJUc0dWaDh0ekRlbDBRZ1BDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.iG3zSta-aT5pQKQOGgouzAUr16cF5UEBrjmHW7TasjI"
+              }
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "day",
+                  "value": "20",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": "{{client_url}}/api/v1/getPriceHistory"
+          },
+          "response": []
         }
       ],
       "id": "69f6497c-5e68-42e3-9e29-3e5f166fff2e"
@@ -1736,35 +1765,6 @@
               ]
             },
             "url": "{{client_url}}/api/v1/disableGoogle2fa"
-          },
-          "response": []
-        },
-        {
-          "name": "getPriceHistory",
-          "id": "80498196-7f43-4715-a2c6-dd060dff3a1c",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "auth": {
-              "type": "bearer",
-              "bearer": {
-                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTA4ODIwMDksImV4cCI6MTY1MDk2ODQwOSwibmJmIjoxNjUwODgyMDA5LCJqdGkiOiJUc0dWaDh0ekRlbDBRZ1BDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.iG3zSta-aT5pQKQOGgouzAUr16cF5UEBrjmHW7TasjI"
-              }
-            },
-            "method": "POST",
-            "header": [],
-            "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "day",
-                  "value": "20",
-                  "type": "text"
-                }
-              ]
-            },
-            "url": "{{client_url}}/api/v1/getPriceHistory"
           },
           "response": []
         }
