@@ -412,7 +412,7 @@
                 }
               ]
             },
-            "url": "{{client_url}}/api/v1/getPriceHistory"
+            "url": "{{base_url}}/api/v1/getPriceHistory"
           },
           "response": []
         }
