@@ -876,6 +876,19 @@
             "header": []
           },
           "response": []
+        },
+        {
+          "name": "logout",
+          "id": "5aab38fb-df20-4ee5-8261-c6efafb9d9d4",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "{{client_url}}/api/v1/refresh"
+          },
+          "response": []
         }
       ],
       "id": "7b4dce4b-9059-4553-9a77-b5b78cee3870"
