@@ -864,6 +864,18 @@
             "description": "### expected outputs \n<strong>user</strong>\n      \n    user: {\n       email:email\n       name: name if exists\n       emailState:boolean the email verified\n       verified:  boolean \n     }"
           },
           "response": []
+        },
+        {
+          "name": "New Request",
+          "id": "2087f6a0-aa0e-4926-b11a-c1a94e8eb069",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
         }
       ],
       "id": "7b4dce4b-9059-4553-9a77-b5b78cee3870"
