@@ -886,7 +886,7 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": "{{client_url}}/api/v1/refresh"
+            "url": "{{client_url}}/api/v1/logout"
           },
           "response": []
         }
