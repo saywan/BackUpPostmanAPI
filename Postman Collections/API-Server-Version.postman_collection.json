@@ -397,7 +397,7 @@
             "auth": {
               "type": "bearer",
               "bearer": {
-                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTA4ODIwMDksImV4cCI6MTY1MDk2ODQwOSwibmJmIjoxNjUwODgyMDA5LCJqdGkiOiJUc0dWaDh0ekRlbDBRZ1BDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.iG3zSta-aT5pQKQOGgouzAUr16cF5UEBrjmHW7TasjI"
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTE2MTA3NTMsImV4cCI6MTY1MTY5NzE1MywibmJmIjoxNjUxNjEwNzUzLCJqdGkiOiJYbGxiNjg5d1BHQVE0SElxIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.llH97PyYX-kMxCLO-A-0DXns94ExeAKckxOA43cV-gk"
               }
             },
             "method": "POST",
@@ -407,7 +407,7 @@
               "formdata": [
                 {
                   "key": "day",
-                  "value": "20",
+                  "value": "-1",
                   "type": "text"
                 }
               ]
