@@ -884,7 +884,13 @@
             "disableBodyPruning": true
           },
           "request": {
-            "method": "GET",
+            "auth": {
+              "type": "bearer",
+              "bearer": {
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTE3MzM4MTYsImV4cCI6MTY1MTgyMDIxNiwibmJmIjoxNjUxNzMzODE2LCJqdGkiOiJYZXZFaGFyaUxOVlBhVVhDIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.91DZHjua4t3TyIdwgipkuW3BfETbaqJpMwxWzyoEWmA"
+              }
+            },
+            "method": "POST",
             "header": [],
             "url": "{{client_url}}/api/v1/logout"
           },
