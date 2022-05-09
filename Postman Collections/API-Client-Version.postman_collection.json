@@ -1551,7 +1551,7 @@
             "auth": {
               "type": "bearer",
               "bearer": {
-                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk5MTgxMTAsImV4cCI6MTY1MDAwNDUxMCwibmJmIjoxNjQ5OTE4MTEwLCJqdGkiOiJJQXdmWmg0eEJDeUxaT3dOIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.MnRV7TO5xIfFJy-2DSlysBbSvW-Hx_BtvoalQore43I"
+                "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTIwODg5NzYsImV4cCI6MTY1MjE3NTM3NiwibmJmIjoxNjUyMDg4OTc2LCJqdGkiOiJEYkZCQ09uaGd3RUhsWXVzIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.d9KZa-07pTVNKsROxhIp7y-HNztdaHHJF0FJW6oPLiQ"
               }
             },
             "method": "GET",
