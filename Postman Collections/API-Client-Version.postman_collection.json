@@ -3187,7 +3187,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "WithdrawTetherTest",
 					"id": "8fc2d346-c32b-4040-bf53-1d72a743296c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
