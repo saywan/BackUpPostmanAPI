@@ -2125,7 +2125,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2MzcxMjkwMTQsImV4cCI6MTYzNzIxNTQxNCwibmJmIjoxNjM3MTI5MDE0LCJqdGkiOiJ1YXJGRWxBbWhSVWZ4TTJYIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.W_U9O9gPPPi1dhu0ax8OYLfJ6bKLfZJ5jZyp1K9vKf8"
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTI2ODk0NjcsImV4cCI6MTY1Mjc3NTg2NywibmJmIjoxNjUyNjg5NDY3LCJqdGkiOiJYTmxPbWJGbXdTZVlhWTRaIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.aOONvJXFyy8VyRcvSAY8QbxiSAGitpZzcXBiS2sdMmA"
 									}
 								},
 								"method": "POST",
@@ -2135,17 +2135,23 @@
 									"formdata": [
 										{
 											"key": "wallet",
-											"value": "456456456456",
+											"value": "TL5TEsq6roBb4LGGCiuhwkx4u51Ep7ojcr",
 											"type": "text"
 										},
 										{
 											"key": "transferNetwork",
 											"value": "TRC20",
-											"type": "text"
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "amount",
-											"value": "171",
+											"value": "40",
+											"type": "text"
+										},
+										{
+											"key": "coinId",
+											"value": "1",
 											"type": "text"
 										}
 									]
