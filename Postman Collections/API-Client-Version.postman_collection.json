@@ -3194,7 +3194,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "https://api.sorenexservice.net/api/v1/WithdrawTetherTest/656565/S.Ganji73@Gmail.com/14001 ordbehash/9:20:30/Withdraw/200/1"
 					},
 					"response": []
 				}
