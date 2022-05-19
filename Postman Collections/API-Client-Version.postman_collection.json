@@ -2802,7 +2802,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDk4MzQxMjIsImV4cCI6MTY0OTkyMDUyMiwibmJmIjoxNjQ5ODM0MTIyLCJqdGkiOiJkeDBHaFM3QWJtSEtMZHlNIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.ZPPR3Qcs_8g4ub3ZoNUG_NWHvQm93W_7-GMZNGc1zWk"
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTI5Mzg2MzAsImV4cCI6MTY1MzExMTQzMCwibmJmIjoxNjUyOTM4NjMwLCJqdGkiOiIzekJTaVlsU3JSUURST1JVIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.nVhBqtUX49e_AnKV9l7uAH4wufWL0grUtsxvfRLCnlw"
 							}
 						},
 						"method": "POST",
@@ -2812,12 +2812,12 @@
 							"formdata": [
 								{
 									"key": "id",
-									"value": "2",
+									"value": "1",
 									"type": "text"
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/getCryptoInfo"
+						"url": "{{client_url}}/api/v1/getCoinForUser"
 					},
 					"response": []
 				}
