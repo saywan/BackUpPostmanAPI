@@ -2822,7 +2822,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "getAllCoin",
 					"id": "5fd7c18a-f159-4493-8f08-52c97b7505a7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
