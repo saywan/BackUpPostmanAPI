@@ -401,7 +401,7 @@
 							"formdata": [
 								{
 									"key": "day",
-									"value": "1",
+									"value": "-1",
 									"type": "text"
 								}
 							]
