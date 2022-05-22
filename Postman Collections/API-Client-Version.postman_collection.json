@@ -2793,7 +2793,7 @@
 					"response": []
 				},
 				{
-					"name": "getCryptoInfo",
+					"name": "getCoinForUser",
 					"id": "60132e72-31c8-4eb6-a8cb-4f134f067cf6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
