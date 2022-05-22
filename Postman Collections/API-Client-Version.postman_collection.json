@@ -2802,7 +2802,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTI5Mzg2MzAsImV4cCI6MTY1MzExMTQzMCwibmJmIjoxNjUyOTM4NjMwLCJqdGkiOiIzekJTaVlsU3JSUURST1JVIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.nVhBqtUX49e_AnKV9l7uAH4wufWL0grUtsxvfRLCnlw"
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTMxMTcxNzgsImV4cCI6MTY1MzI4OTk3OCwibmJmIjoxNjUzMTE3MTc4LCJqdGkiOiIyMVVCM21ibGEwSGpKMnFtIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.x8X8AhjcTxv9gGdBcWHAiI8NJlxFnUoJSZ6NMARB-94"
 							}
 						},
 						"method": "POST",
