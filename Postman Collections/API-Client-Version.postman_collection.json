@@ -2126,7 +2126,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/withdrawTether"
+								"url": "{{client_url}}/api/v1/withdrawCrypto"
 							},
 							"response": []
 						},
