@@ -2271,7 +2271,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/saveWalletUser"
+								"url": "{{client_url}}/api/v1/saveCryptoWalletUser"
 							},
 							"response": []
 						},
