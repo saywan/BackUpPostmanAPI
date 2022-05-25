@@ -2190,7 +2190,7 @@
 							"response": []
 						},
 						{
-							"name": "resendTetherWithdrawCode",
+							"name": "resendCryptoWithdrawCode",
 							"id": "e56a2957-4ea7-4a03-b7ab-1bebdcd0f336",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
