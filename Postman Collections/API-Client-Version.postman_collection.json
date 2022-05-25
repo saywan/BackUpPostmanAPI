@@ -2276,7 +2276,7 @@
 							"response": []
 						},
 						{
-							"name": "getWalletUser",
+							"name": "getCryptoWalletUser",
 							"id": "883b2329-e7cd-41c5-831c-6795337d599a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2300,7 +2300,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/getWalletUser"
+								"url": "{{client_url}}/api/v1/getCryptoWalletUser"
 							},
 							"response": []
 						},
