@@ -2439,7 +2439,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTAzNjEwMDIsImV4cCI6MTY1MDQ0NzQwMiwibmJmIjoxNjUwMzYxMDAyLCJqdGkiOiJCeWdIeVI5dVpaNlRsS1RnIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.6aB00GPk4ZfYOg-skR7I3Z55xHXU-XJZBu4iQHu5LcI"
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTM0NjQ5OTYsImV4cCI6MTY1MzYzNzc5NiwibmJmIjoxNjUzNDY0OTk2LCJqdGkiOiI0Qm1CY0pEZzgxRUw2N0RqIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.TGEvdAwQRwTfUNLRSfwE-R1T_39sJ1cqTI5gf0PJ6PU"
 									}
 								},
 								"method": "POST",
