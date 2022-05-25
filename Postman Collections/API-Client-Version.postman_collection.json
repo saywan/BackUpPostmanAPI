@@ -2081,7 +2081,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/depositTether"
+								"url": "{{client_url}}/api/v1/depositCrypto"
 							},
 							"response": []
 						},
