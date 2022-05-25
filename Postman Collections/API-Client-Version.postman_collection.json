@@ -2237,7 +2237,7 @@
 					"name": "SaveWallet",
 					"item": [
 						{
-							"name": "saveWalletUser",
+							"name": "saveCryptoWalletUser",
 							"id": "b0f060e5-f6cd-478c-9ca1-09c33a407e9d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
