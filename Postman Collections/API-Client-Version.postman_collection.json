@@ -2588,7 +2588,7 @@
 					"response": []
 				},
 				{
-					"name": "buyTether",
+					"name": "buyCrypto",
 					"id": "83d6066d-2646-4798-8ea5-5bc8abda4d16",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
