@@ -2617,7 +2617,7 @@
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/buyTether"
+						"url": "{{client_url}}/api/v1/buyCrypto"
 					},
 					"response": []
 				},
