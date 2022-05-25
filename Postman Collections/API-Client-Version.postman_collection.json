@@ -2226,7 +2226,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/resendTetherWithdrawCode"
+								"url": "{{client_url}}/api/v1/resendCryptoWithdrawCode"
 							},
 							"response": []
 						}
