@@ -2583,7 +2583,7 @@
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/sellTether"
+						"url": "{{client_url}}/api/v1/sellCrypto"
 					},
 					"response": []
 				},
