@@ -2039,7 +2039,7 @@
 					"id": "796d9c03-6c33-49fa-b9f4-57a6014d2513"
 				},
 				{
-					"name": "tetherWallet",
+					"name": "CryptoWallet",
 					"item": [
 						{
 							"name": "depositCrypto",
@@ -2086,7 +2086,7 @@
 							"response": []
 						},
 						{
-							"name": "withdrawTether",
+							"name": "withdrawCrypto",
 							"id": "eb6425df-989d-45c2-933c-cefd8fcf03ac",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
