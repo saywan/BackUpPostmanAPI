@@ -2305,7 +2305,7 @@
 							"response": []
 						},
 						{
-							"name": "deleteWalletUser",
+							"name": "deleteCryptoWalletUser",
 							"id": "4e4b516d-2361-46fe-ab6f-729c1fb2b3ac",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2329,7 +2329,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/deleteWalletUser"
+								"url": "{{client_url}}/api/v1/deleteCryptoWalletUser"
 							},
 							"response": []
 						},
