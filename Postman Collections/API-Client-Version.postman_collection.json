@@ -2042,7 +2042,7 @@
 					"name": "tetherWallet",
 					"item": [
 						{
-							"name": "depositTether",
+							"name": "depositCrypto",
 							"id": "d02f8da2-12fd-414b-8091-1166df7b9e0b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
