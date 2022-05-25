@@ -2150,7 +2150,7 @@
 							"response": []
 						},
 						{
-							"name": "resendCryptoWithdrawCode",
+							"name": "verifyCryptoWithdrawCode",
 							"id": "7e7b250e-84fc-4372-ad3d-2b8ae85d56f4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -2185,7 +2185,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/resendCryptoWithdrawCode"
+								"url": "{{client_url}}/api/v1/verifyCryptoWithdrawCode"
 							},
 							"response": []
 						},
