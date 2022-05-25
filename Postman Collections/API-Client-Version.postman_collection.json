@@ -866,18 +866,6 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
-					"id": "2087f6a0-aa0e-4926-b11a-c1a94e8eb069",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
-				{
 					"name": "logout",
 					"id": "5aab38fb-df20-4ee5-8261-c6efafb9d9d4",
 					"protocolProfileBehavior": {
