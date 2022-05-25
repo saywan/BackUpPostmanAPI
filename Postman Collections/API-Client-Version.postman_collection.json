@@ -2554,7 +2554,7 @@
 			"name": "Market",
 			"item": [
 				{
-					"name": "sellTether",
+					"name": "sellCrypto",
 					"id": "61b7dd40-5c8c-4544-a25b-5ad64be090c0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
