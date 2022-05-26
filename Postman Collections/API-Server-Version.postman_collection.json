@@ -2811,7 +2811,7 @@
 					"response": []
 				},
 				{
-					"name": "getCryptoInfo",
+					"name": "getCoinForUser",
 					"id": "da1a78e4-6d0e-40a3-8085-a72444da45f6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -2835,7 +2835,7 @@
 								}
 							]
 						},
-						"url": "{{base_url}}/api/v1/getCryptoInfo"
+						"url": "{{base_url}}/api/v1/getCoinForUser"
 					},
 					"response": []
 				},
