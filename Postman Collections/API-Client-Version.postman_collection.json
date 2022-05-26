@@ -3213,8 +3213,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": "http://46.100.53.10:7373/api/Devices/Register"
 					},
 					"response": []
 				}
