@@ -2867,6 +2867,25 @@
 						"url": "{{base_url}}/api/v1/getPriceHistory"
 					},
 					"response": []
+				},
+				{
+					"name": "getAllCoin",
+					"id": "4d6b9920-c5e0-4549-b0c7-8a6d14b944f1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTM0NjQ5OTYsImV4cCI6MTY1MzYzNzc5NiwibmJmIjoxNjUzNDY0OTk2LCJqdGkiOiI0Qm1CY0pEZzgxRUw2N0RqIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.TGEvdAwQRwTfUNLRSfwE-R1T_39sJ1cqTI5gf0PJ6PU"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{client_url}}/api/v1/getAllCoins"
+					},
+					"response": []
 				}
 			],
 			"id": "8357b437-cf51-405d-8332-ac10087b3588"
