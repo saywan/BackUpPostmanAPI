@@ -2835,7 +2835,7 @@
 								}
 							]
 						},
-						"url": "{{base_url}}/api/v1/getCoinForUser"
+						"url": "{{base_url}}/api/v1/getCryptoInfo"
 					},
 					"response": []
 				},
