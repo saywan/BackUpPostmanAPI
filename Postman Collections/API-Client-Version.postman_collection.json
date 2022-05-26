@@ -3215,6 +3215,26 @@
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "Cypher",
+									"value": "Yv57wlms79f7kWT3dF5SUmGoRVz1MizXNcKvDK39S+8=",
+									"type": "text"
+								},
+								{
+									"key": "IV",
+									"value": "Yv57wlms79f7kWT3dF5SUmGoRVz1MizXNcKvDK39S+8=",
+									"type": "text"
+								},
+								{
+									"key": "IntegrationID",
+									"value": "100492aa100492aa",
+									"type": "text"
+								}
+							]
+						},
 						"url": "http://46.100.53.10:7373/api/Devices/Register"
 					},
 					"response": []
