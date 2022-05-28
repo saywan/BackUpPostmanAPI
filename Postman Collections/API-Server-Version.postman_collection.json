@@ -1255,7 +1255,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NDYyMjQ4NzUsImV4cCI6MTY0NjMxMTI3NSwibmJmIjoxNjQ2MjI0ODc1LCJqdGkiOiJ2NTBlRmh2TDBYa1FKMkh0Iiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.sbBc7Hl53hMrtsb_TCE-6wWVe9LUryq_bggm8vcTVqI"
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTM2MDAxNzQsImV4cCI6MTY1MzY4NjU3NCwibmJmIjoxNjUzNjAwMTc0LCJqdGkiOiJkZUdNSnh4ZjJzellNdmlVIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.ga-xF_C-XQEvqVV5H9nJhmu-8Qv3vWH2g5fcjCGNqKg"
 							}
 						},
 						"method": "GET",
