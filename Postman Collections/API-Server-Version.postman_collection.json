@@ -2081,7 +2081,7 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnRldGhlci1iYW5rLmNvbVwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjMyMzg1NDczLCJleHAiOjE2MzIzODkwNzMsIm5iZiI6MTYzMjM4NTQ3MywianRpIjoiRFZnaXBEd1kzZzFiVWVJcSIsInN1YiI6MSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.QJVN9F8zFdxqAqKJeWnZsdZSAt9rtbyNvSHFW0Z0e00"
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC92MVwvc2lnbmluIiwiaWF0IjoxNjU0MTY2NTQ1LCJleHAiOjE2NTQzMzkzNDUsIm5iZiI6MTY1NDE2NjU0NSwianRpIjoiUTU1em96OUtuakIxc2lTcyIsInN1YiI6MTQyLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.rzIYqOjJgiVs52NowRSU-sH18TI0c0oQE1E8r1lXDaM"
 									}
 								},
 								"method": "POST",
