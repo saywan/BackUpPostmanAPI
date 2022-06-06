@@ -2863,7 +2863,7 @@
 							"formdata": [
 								{
 									"key": "type",
-									"value": "withdraw",
+									"value": "deposit",
 									"type": "text"
 								},
 								{
@@ -2878,7 +2878,7 @@
 								},
 								{
 									"key": "coinId",
-									"value": "1",
+									"value": "2",
 									"type": "text"
 								},
 								{
