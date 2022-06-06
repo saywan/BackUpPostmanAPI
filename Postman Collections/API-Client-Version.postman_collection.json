@@ -1993,11 +1993,11 @@
 										{
 											"key": "receipt",
 											"type": "file",
-											"src": "/C:/Users/SaiwanGanjiDeveloper/Downloads/1650837377 (1).jpg"
+											"src": "/C:/Users/SaiwanGanjiDeveloper/Downloads/callout-2.jpeg"
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/depositRialShetabi"
+								"url": "{{client_url}}/api/v1/depositTomanShetabi"
 							},
 							"response": []
 						},
