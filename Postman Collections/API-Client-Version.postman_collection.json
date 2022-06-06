@@ -2842,6 +2842,45 @@
 						"url": "{{client_url}}/api/v1/getAllCoins"
 					},
 					"response": []
+				},
+				{
+					"name": "getHistory Copy",
+					"id": "d9444fc5-4348-4103-9a3a-0861b20caab1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTQ0OTcxNzEsImV4cCI6MTY1NDY2OTk3MSwibmJmIjoxNjU0NDk3MTcxLCJqdGkiOiJldU5UNGViaW9TTVU5aXNuIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.M5CvG2cGoEOOHAybzeSZSmgkI-3LONR_Z9hQY743JIQ"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "type",
+									"value": "withdrawTether",
+									"type": "text"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "rowsPerPage",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{client_url}}/api/v1/getHistoryCrypto"
+					},
+					"response": []
 				}
 			],
 			"id": "6528c85f-de6d-434c-ad46-e9e94487d466"
