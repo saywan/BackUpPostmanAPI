@@ -2002,7 +2002,7 @@
 							"response": []
 						},
 						{
-							"name": "withdrawRial",
+							"name": "withdrawToman",
 							"id": "2af435dc-9bfa-464d-9050-e926a5ce7689",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
