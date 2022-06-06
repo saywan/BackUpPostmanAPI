@@ -2844,7 +2844,7 @@
 					"response": []
 				},
 				{
-					"name": "getHistory Copy",
+					"name": "getHistoryCrypto",
 					"id": "d9444fc5-4348-4103-9a3a-0861b20caab1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
