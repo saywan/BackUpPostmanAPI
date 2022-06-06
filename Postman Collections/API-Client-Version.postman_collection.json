@@ -2863,7 +2863,7 @@
 							"formdata": [
 								{
 									"key": "type",
-									"value": "deposit",
+									"value": "withdraw",
 									"type": "text"
 								},
 								{
@@ -2889,7 +2889,7 @@
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/getHistoryCrypto"
+						"url": "{{client_url}}/api/v1/getHistory"
 					},
 					"response": []
 				}
