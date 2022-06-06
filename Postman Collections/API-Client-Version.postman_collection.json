@@ -2031,7 +2031,7 @@
 										}
 									]
 								},
-								"url": "{{client_url}}/api/v1/withdrawRial"
+								"url": "{{client_url}}/api/v1/withdrawToman"
 							},
 							"response": []
 						}
