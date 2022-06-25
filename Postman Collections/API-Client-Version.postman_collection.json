@@ -2041,6 +2041,18 @@
 								"url": "{{client_url}}/api/v1/withdrawToman"
 							},
 							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "cb3d7d9f-0a92-45f6-b999-c34d2eb574c6",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "796d9c03-6c33-49fa-b9f4-57a6014d2513"
