@@ -1925,7 +1925,7 @@
 					"name": "rialWallet",
 					"item": [
 						{
-							"name": "depositRialDargah",
+							"name": "depositTomanDargah",
 							"id": "2defccaa-881d-4a90-a301-7cf5adbdccd5",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -1938,12 +1938,13 @@
 									"formdata": [
 										{
 											"key": "cardId",
-											"value": "",
-											"type": "text"
+											"value": "79",
+											"type": "text",
+											"disabled": true
 										},
 										{
 											"key": "amount",
-											"value": "",
+											"value": "20000",
 											"type": "text"
 										}
 									]
