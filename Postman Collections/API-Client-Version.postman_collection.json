@@ -2049,8 +2049,15 @@
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
-								"header": []
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTYxMzc0NzAsImV4cCI6MTY1NjMxMDI3MCwibmJmIjoxNjU2MTM3NDcwLCJqdGkiOiJ1dEdBVm9SQTBqQlJjZHRjIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xfG2XJJ-WmJzCQOabAZp4gLoOizcwQH3tzob891Hjg8"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"url": "{{client_url}}/api/v1/verifyTomanPayment"
 							},
 							"response": []
 						}
