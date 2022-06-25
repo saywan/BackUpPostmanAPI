@@ -2043,7 +2043,7 @@
 							"response": []
 						},
 						{
-							"name": "New Request",
+							"name": "verifyTomanPayment",
 							"id": "cb3d7d9f-0a92-45f6-b999-c34d2eb574c6",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
