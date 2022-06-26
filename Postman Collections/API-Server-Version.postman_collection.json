@@ -2066,7 +2066,7 @@
 							"response": []
 						},
 						{
-							"name": "verifyTomanPayment Copy",
+							"name": "verifyTomanPayment",
 							"id": "63356b30-15fe-4be8-85a5-df0153598eb8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
