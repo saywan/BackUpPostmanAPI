@@ -2064,6 +2064,35 @@
 								"url": "{{base_url}}/api/v1/withdrawRial"
 							},
 							"response": []
+						},
+						{
+							"name": "verifyTomanPayment Copy",
+							"id": "63356b30-15fe-4be8-85a5-df0153598eb8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTYxMzc0NzAsImV4cCI6MTY1NjMxMDI3MCwibmJmIjoxNjU2MTM3NDcwLCJqdGkiOiJ1dEdBVm9SQTBqQlJjZHRjIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xfG2XJJ-WmJzCQOabAZp4gLoOizcwQH3tzob891Hjg8"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "token",
+											"value": "JMYS20JLAEW4EEL",
+											"type": "text"
+										}
+									]
+								},
+								"url": "{{base_url}}/api/v1/verifyTomanPayment"
+							},
+							"response": []
 						}
 					],
 					"id": "33f4625a-1543-430b-81cf-f52b2e6d2dad"
