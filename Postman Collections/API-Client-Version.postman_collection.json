@@ -2058,14 +2058,13 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "formdata",
-									"formdata": [
-										{
-											"key": "token",
-											"value": "LXACWIIJLL32HIQ",
-											"type": "text"
+									"mode": "raw",
+									"raw": "{\r\n    \"token\":\"LXACWIIJLL32HIQ\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
 										}
-									]
+									}
 								},
 								"url": "{{client_url}}/api/v1/verifyTomanPayment"
 							},
