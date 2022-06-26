@@ -2069,6 +2069,34 @@
 								"url": "{{client_url}}/api/v1/verifyTomanPayment"
 							},
 							"response": []
+						},
+						{
+							"name": "getInfoTransaction",
+							"id": "e85a3ced-6a00-4ca7-90ec-2cf522b6169e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTYxMzc0NzAsImV4cCI6MTY1NjMxMDI3MCwibmJmIjoxNjU2MTM3NDcwLCJqdGkiOiJ1dEdBVm9SQTBqQlJjZHRjIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xfG2XJJ-WmJzCQOabAZp4gLoOizcwQH3tzob891Hjg8"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"token\":\"LXACWIIJLL32HIQ\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{client_url}}/api/v1/verifyTomanPayment"
+							},
+							"response": []
 						}
 					],
 					"id": "796d9c03-6c33-49fa-b9f4-57a6014d2513"
