@@ -1955,7 +1955,7 @@
 					"name": "rialWallet",
 					"item": [
 						{
-							"name": "depositRialDargah",
+							"name": "depositTomanGateway",
 							"id": "b6812723-f951-4729-a7c3-2add1ac642f7",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
