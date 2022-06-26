@@ -2082,7 +2082,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"token\":\"7SZRRYGSOWTNRKV\",\r\n}",
+									"raw": "{\r\n    \"token\":\"7SZRRYGSOWTNRKV\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
