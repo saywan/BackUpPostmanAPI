@@ -3387,8 +3387,13 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": "{{client_url}}/api/v1/charge"
 					},
 					"response": []
 				}
