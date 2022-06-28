@@ -3396,6 +3396,23 @@
 						"url": "{{client_url}}/api/v1/charge"
 					},
 					"response": []
+				},
+				{
+					"name": "getPackage",
+					"id": "39a4fb00-a2d4-40cf-8b90-1651c2c77d67",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": "{{client_url}}/api/v1/charge"
+					},
+					"response": []
 				}
 			],
 			"id": "ae8611e2-27a1-425b-bd78-d16ff3cf61b8"
