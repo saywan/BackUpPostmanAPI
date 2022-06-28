@@ -3410,7 +3410,7 @@
 							"mode": "formdata",
 							"formdata": []
 						},
-						"url": "{{client_url}}/api/v1/getPackage"
+						"url": "{{client_url}}/api/v1/getPackageMCI"
 					},
 					"response": []
 				}
