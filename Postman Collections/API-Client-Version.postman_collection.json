@@ -2052,14 +2052,14 @@
 								"auth": {
 									"type": "bearer",
 									"bearer": {
-										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTYxMzc0NzAsImV4cCI6MTY1NjMxMDI3MCwibmJmIjoxNjU2MTM3NDcwLCJqdGkiOiJ1dEdBVm9SQTBqQlJjZHRjIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xfG2XJJ-WmJzCQOabAZp4gLoOizcwQH3tzob891Hjg8"
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTY0MDQzMTksImV4cCI6MTY1NjU3NzExOSwibmJmIjoxNjU2NDA0MzE5LCJqdGkiOiJ1ZUVrUGtBbHpFZTdUWVFEIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.U0it_veNXzrZfhi5-DNbT-LSgzkxY7WWQESiOadB8Dk"
 									}
 								},
 								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"token\":\"FJN39F56IZ02TRE\"\r\n}",
+									"raw": "{\r\n    \"token\":\"DWBDHPC4EIPMKT2\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3400,6 +3400,23 @@
 				{
 					"name": "getPackageMCI",
 					"id": "39a4fb00-a2d4-40cf-8b90-1651c2c77d67",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": "{{client_url}}/api/v1/getPackageMCI"
+					},
+					"response": []
+				},
+				{
+					"name": "getPackageMCI Copy",
+					"id": "9f8f867b-fe6e-4951-b4ee-03a526b7999e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
