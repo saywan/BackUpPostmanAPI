@@ -3398,7 +3398,7 @@
 					"response": []
 				},
 				{
-					"name": "getPackage",
+					"name": "getPackageMCI",
 					"id": "39a4fb00-a2d4-40cf-8b90-1651c2c77d67",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
