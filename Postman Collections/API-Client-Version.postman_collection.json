@@ -2064,7 +2064,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"toen\":\"A00000000000000000000000000355239232\",\r\n    \"gateway\":\"zarinpal\"\r\n}",
+									"raw": "{\r\n    \"token\":\"A00000000000000000000000000355239232\",\r\n    \"gateway\":\"zarinpal\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
