@@ -2102,6 +2102,34 @@
 								"url": "{{client_url}}/api/v1/getInfoTransaction"
 							},
 							"response": []
+						},
+						{
+							"name": "getInfoTransaction Copy",
+							"id": "16953db3-219e-4d96-b746-0494a17789b4",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTY3NDk5MjEsImV4cCI6MTY1NjkyMjcyMSwibmJmIjoxNjU2NzQ5OTIxLCJqdGkiOiJNTmJsa1pkZ0wxMTVJR29BIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.WJIfnZd5p_T3oT27VsI2yUGW7xJ5jW5uAhPd6Rs-qdo"
+									}
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"token\":\"UKG7FULJJADXFSE\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{client_url}}/api/v1/getVerifyZarainPal"
+							},
+							"response": []
 						}
 					],
 					"id": "796d9c03-6c33-49fa-b9f4-57a6014d2513"
