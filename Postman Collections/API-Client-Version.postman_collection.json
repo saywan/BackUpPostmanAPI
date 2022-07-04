@@ -2104,7 +2104,7 @@
 							"response": []
 						},
 						{
-							"name": "getInfoTransaction Copy",
+							"name": "getVerifyZarainPal",
 							"id": "16953db3-219e-4d96-b746-0494a17789b4",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
