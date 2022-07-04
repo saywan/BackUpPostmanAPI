@@ -2055,16 +2055,13 @@
 							},
 							"request": {
 								"auth": {
-									"type": "bearer",
-									"bearer": {
-										"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTY3Mzc0NzIsImV4cCI6MTY1NjkxMDI3MiwibmJmIjoxNjU2NzM3NDcyLCJqdGkiOiJHakFlZFlia1hORjRtck9BIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.Tzd0YDQLYMOo8Bv311HWuhWERzBvDSDTJmHt03iDlQk"
-									}
+									"type": "noauth"
 								},
 								"method": "POST",
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"token\":\"A00000000000000000000000000355239232\",\r\n    \"gateway\":\"zarinpal\"\r\n}",
+									"raw": "{\r\n    \"token\":\"A00000000000000000000000000355883203\",\r\n    \"gateway\":\"zarinpal\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
