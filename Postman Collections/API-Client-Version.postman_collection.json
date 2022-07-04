@@ -2119,13 +2119,19 @@
 								"method": "POST",
 								"header": [],
 								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \r\n    \"token\":\"UKG7FULJJADXFSE\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "token",
+											"value": "A00000000000000000000000000355883203",
+											"type": "text"
+										},
+										{
+											"key": "amount",
+											"value": "1000",
+											"type": "text"
 										}
-									}
+									]
 								},
 								"url": "{{client_url}}/api/v1/getVerifyZarainPal"
 							},
