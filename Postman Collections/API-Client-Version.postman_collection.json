@@ -3453,7 +3453,7 @@
 					"response": []
 				},
 				{
-					"name": "getPackageMCI Copy",
+					"name": "ReserveCharge",
 					"id": "9f8f867b-fe6e-4951-b4ee-03a526b7999e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3465,7 +3465,7 @@
 							"mode": "formdata",
 							"formdata": []
 						},
-						"url": "{{client_url}}/api/v1/getPackageMCI"
+						"url": "{{client_url}}/api/v1/ReserveCharge"
 					},
 					"response": []
 				}
