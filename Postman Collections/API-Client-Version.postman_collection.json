@@ -608,18 +608,19 @@
 								{
 									"key": "email",
 									"value": "sadeghshaikhi77@gmail.com",
-									"type": "text",
-									"disabled": true
+									"type": "text"
 								},
 								{
 									"key": "password",
 									"value": "123456789!@#Ss",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "email",
 									"value": "S.Ganji73@Gmail.com",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								},
 								{
 									"key": "email",
@@ -629,9 +630,8 @@
 								},
 								{
 									"key": "password",
-									"value": "123456789",
-									"type": "text",
-									"disabled": true
+									"value": "Ss123456789",
+									"type": "text"
 								}
 							]
 						},
