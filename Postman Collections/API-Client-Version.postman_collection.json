@@ -2742,7 +2742,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTY5MTEzMjAsImV4cCI6MTY1NzA4NDEyMCwibmJmIjoxNjU2OTExMzIwLCJqdGkiOiJXQTh1NkNLN2tqRzFpWGQ2Iiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.niYGqi5Y0bHFYy8V0zgvQ_eQfaPCt52BAcwYu-0KXZc"
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTY5MjA4NDEsImV4cCI6MTY1NzA5MzY0MSwibmJmIjoxNjU2OTIwODQxLCJqdGkiOiJlTFRFSnQ1bUZ6dk9PbUFIIiwic3ViIjoxMTgsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.MahGyg6IaP48ouYBpvo3EqFe14uH595wF_Mv2rmHKvo"
 							}
 						},
 						"method": "POST",
@@ -2762,7 +2762,7 @@
 								},
 								{
 									"key": "rowsPerPage",
-									"value": "2",
+									"value": "10",
 									"type": "text"
 								},
 								{
