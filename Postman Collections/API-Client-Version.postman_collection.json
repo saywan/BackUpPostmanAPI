@@ -3448,7 +3448,7 @@
 							"mode": "formdata",
 							"formdata": []
 						},
-						"url": "{{client_url}}/api/v1/checkBalance"
+						"url": "{{client_url}}/api/v1/checkBalancePanel"
 					},
 					"response": []
 				},
