@@ -3436,7 +3436,7 @@
 					"response": []
 				},
 				{
-					"name": "checkBalance",
+					"name": "checkBalancePanel",
 					"id": "7c0bb063-d5b0-4221-8888-60d5cba5f72b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
