@@ -3431,7 +3431,7 @@
 							"mode": "formdata",
 							"formdata": []
 						},
-						"url": "{{client_url}}/api/v1/checkBalanceCharage"
+						"url": "{{client_url}}/api/v1/checkStatusServer"
 					},
 					"response": []
 				},
