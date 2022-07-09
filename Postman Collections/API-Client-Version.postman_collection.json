@@ -3436,6 +3436,23 @@
 					"response": []
 				},
 				{
+					"name": "checkBalance",
+					"id": "7c0bb063-d5b0-4221-8888-60d5cba5f72b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": "{{client_url}}/api/v1/checkBalance"
+					},
+					"response": []
+				},
+				{
 					"name": "getPackageMCI",
 					"id": "39a4fb00-a2d4-40cf-8b90-1651c2c77d67",
 					"protocolProfileBehavior": {
