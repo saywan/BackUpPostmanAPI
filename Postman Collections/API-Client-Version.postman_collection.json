@@ -3480,7 +3480,13 @@
 						"header": [],
 						"body": {
 							"mode": "formdata",
-							"formdata": []
+							"formdata": [
+								{
+									"key": "mobile",
+									"value": "09214110832",
+									"type": "text"
+								}
+							]
 						},
 						"url": "{{client_url}}/api/v1/ReserveCharge"
 					},
