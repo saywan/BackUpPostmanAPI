@@ -3485,6 +3485,23 @@
 						"url": "{{client_url}}/api/v1/ReserveCharge"
 					},
 					"response": []
+				},
+				{
+					"name": "CheckRequest",
+					"id": "bbedb5b6-25a5-4b55-adec-28777f96f1a5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": "{{client_url}}/api/v1/CheckRequest"
+					},
+					"response": []
 				}
 			],
 			"id": "ae8611e2-27a1-425b-bd78-d16ff3cf61b8"
