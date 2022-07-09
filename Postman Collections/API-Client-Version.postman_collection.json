@@ -3419,7 +3419,7 @@
 			"name": "Charge package",
 			"item": [
 				{
-					"name": "charge",
+					"name": "checkBalanceCharage",
 					"id": "9661002c-e4ed-4bfd-a892-3225a5552a7f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3431,7 +3431,7 @@
 							"mode": "formdata",
 							"formdata": []
 						},
-						"url": "{{client_url}}/api/v1/charge"
+						"url": "{{client_url}}/api/v1/checkBalanceCharage"
 					},
 					"response": []
 				},
