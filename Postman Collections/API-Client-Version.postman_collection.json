@@ -3503,7 +3503,7 @@
 					"response": []
 				},
 				{
-					"name": "https://tetherbankteam.postman.co/workspace/Team-Workspace~692f4d94-d706-4a07-87a0-47176f4c2942/request/17038042-66ddd0df-12cd-4cc7-a602-cb1659d2513d",
+					"name": "confirmChargePay",
 					"id": "66ddd0df-12cd-4cc7-a602-cb1659d2513d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
