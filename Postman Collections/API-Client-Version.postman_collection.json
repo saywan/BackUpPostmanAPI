@@ -3515,23 +3515,23 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "phoneNumber",
-									"value": "09185197577",
+									"key": "ReserveNumber",
+									"value": "585372857",
 									"type": "text"
 								},
 								{
-									"key": "operator",
-									"value": "MCI",
+									"key": "ReferenceNumber",
+									"value": "20220711171724",
 									"type": "text"
 								},
 								{
-									"key": "amount",
-									"value": "20000",
+									"key": "LocalDateTime",
+									"value": "2022-07-11T17:13:06.3180534+04:30",
 									"type": "text"
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/reserveCharge"
+						"url": "{{client_url}}/api/v1/confirmChargePay"
 					},
 					"response": []
 				},
