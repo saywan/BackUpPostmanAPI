@@ -3503,6 +3503,39 @@
 					"response": []
 				},
 				{
+					"name": "https://tetherbankteam.postman.co/workspace/Team-Workspace~692f4d94-d706-4a07-87a0-47176f4c2942/request/17038042-66ddd0df-12cd-4cc7-a602-cb1659d2513d",
+					"id": "66ddd0df-12cd-4cc7-a602-cb1659d2513d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phoneNumber",
+									"value": "09185197577",
+									"type": "text"
+								},
+								{
+									"key": "operator",
+									"value": "MCI",
+									"type": "text"
+								},
+								{
+									"key": "amount",
+									"value": "20000",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{client_url}}/api/v1/reserveCharge"
+					},
+					"response": []
+				},
+				{
 					"name": "CheckRequest",
 					"id": "bbedb5b6-25a5-4b55-adec-28777f96f1a5",
 					"protocolProfileBehavior": {
