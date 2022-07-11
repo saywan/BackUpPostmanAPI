@@ -3482,8 +3482,18 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "mobile",
+									"key": "phoneNumber",
 									"value": "09214110832",
+									"type": "text"
+								},
+								{
+									"key": "operator",
+									"value": "MTN",
+									"type": "text"
+								},
+								{
+									"key": "amount",
+									"value": "1000",
 									"type": "text"
 								}
 							]
