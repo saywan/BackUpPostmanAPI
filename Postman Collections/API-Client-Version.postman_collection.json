@@ -3483,17 +3483,17 @@
 							"formdata": [
 								{
 									"key": "phoneNumber",
-									"value": "09214110832",
+									"value": "09185197577",
 									"type": "text"
 								},
 								{
 									"key": "operator",
-									"value": "MTN",
+									"value": "MCI",
 									"type": "text"
 								},
 								{
 									"key": "amount",
-									"value": "1000",
+									"value": "20000",
 									"type": "text"
 								}
 							]
