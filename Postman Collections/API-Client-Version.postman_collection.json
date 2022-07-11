@@ -3514,6 +3514,18 @@
 						"url": "{{client_url}}/api/v1/CheckRequest"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "c6e94470-cb6e-48c7-bb02-bbc71a320f1f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "ae8611e2-27a1-425b-bd78-d16ff3cf61b8"
