@@ -3516,14 +3516,15 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "giftUser",
 					"id": "c6e94470-cb6e-48c7-bb02-bbc71a320f1f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": "{{client_url}}/api/v1/giftUser"
 					},
 					"response": []
 				}
