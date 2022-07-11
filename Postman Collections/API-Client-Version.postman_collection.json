@@ -3488,7 +3488,7 @@
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/ReserveCharge"
+						"url": "{{client_url}}/api/v1/reserveCharge"
 					},
 					"response": []
 				},
