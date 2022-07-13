@@ -3578,8 +3578,17 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phoneNumber\":\"09035478091\",\r\n    \"operator\":\"MTN\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": "{{client_url}}/api/v1/getAvailableInternetPackages"
 					},
 					"response": []
