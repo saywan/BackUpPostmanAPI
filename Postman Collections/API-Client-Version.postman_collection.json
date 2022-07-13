@@ -3572,7 +3572,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "getAvailableInternetPackages",
 					"id": "d339e4bc-5acc-4ab8-b1aa-675d8ac9c85f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
