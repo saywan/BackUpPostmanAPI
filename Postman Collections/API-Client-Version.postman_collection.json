@@ -3581,13 +3581,19 @@
 						"method": "POST",
 						"header": [],
 						"body": {
-							"mode": "raw",
-							"raw": "{\r\n    \"phoneNumber\":\"09035478091\",\r\n    \"operator\":\"MTN\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phoneNumber",
+									"value": "09035478091",
+									"type": "text"
+								},
+								{
+									"key": "operator",
+									"value": "MTN",
+									"type": "text"
 								}
-							}
+							]
 						},
 						"url": "{{client_url}}/api/v1/getAvailableInternetPackages"
 					},
