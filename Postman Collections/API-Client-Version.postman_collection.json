@@ -3570,6 +3570,18 @@
 						"url": "{{client_url}}/api/v1/giftUser"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "d339e4bc-5acc-4ab8-b1aa-675d8ac9c85f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "ae8611e2-27a1-425b-bd78-d16ff3cf61b8"
