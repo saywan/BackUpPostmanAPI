@@ -3598,6 +3598,34 @@
 						"url": "{{client_url}}/api/v1/getAvailableInternetPackages"
 					},
 					"response": []
+				},
+				{
+					"name": "reserveInternetPackage",
+					"id": "e6cd2825-3cc7-409e-893b-572d7a8718f6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phoneNumber",
+									"value": "09035478091",
+									"type": "text"
+								},
+								{
+									"key": "operator",
+									"value": "MTN",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{client_url}}/api/v1/getAvailableInternetPackages"
+					},
+					"response": []
 				}
 			],
 			"id": "ae8611e2-27a1-425b-bd78-d16ff3cf61b8"
