@@ -3651,7 +3651,7 @@
 								}
 							]
 						},
-						"url": "{{client_url}}/api/v1/reserveInternetPackage"
+						"url": "{{client_url}}/api/v1/confirmInternetPackage"
 					},
 					"response": []
 				}
