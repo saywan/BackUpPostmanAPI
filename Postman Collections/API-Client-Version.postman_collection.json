@@ -3620,6 +3620,11 @@
 									"key": "operator",
 									"value": "MTN",
 									"type": "text"
+								},
+								{
+									"key": "chargeType",
+									"value": "1",
+									"type": "text"
 								}
 							]
 						},
