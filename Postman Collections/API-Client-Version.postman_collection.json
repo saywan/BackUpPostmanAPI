@@ -3476,6 +3476,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTgzMDkxNDIsImV4cCI6MTY1ODQ4MTk0MiwibmJmIjoxNjU4MzA5MTQyLCJqdGkiOiJRVjUxZE5DSVlyU2o1U1o5Iiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.H4acu4uZXy8kcbkY0Xb3hKdO9MaGENs_e_AQzrGRpTE"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -3483,17 +3489,17 @@
 							"formdata": [
 								{
 									"key": "phoneNumber",
-									"value": "09185197577",
+									"value": "09035478091",
 									"type": "text"
 								},
 								{
 									"key": "operator",
-									"value": "MCI",
+									"value": "MTN",
 									"type": "text"
 								},
 								{
 									"key": "amount",
-									"value": "50000",
+									"value": "10000",
 									"type": "text"
 								}
 							]
