@@ -3590,6 +3590,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTgzODAxOTQsImV4cCI6MTY1ODU1Mjk5NCwibmJmIjoxNjU4MzgwMTk0LCJqdGkiOiJKMXBtTUJqeThZaURVdVZXIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.TCLcAYA8OejAtIcg0QzO81LC3FvYVVeyyssl-Porrrg"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
