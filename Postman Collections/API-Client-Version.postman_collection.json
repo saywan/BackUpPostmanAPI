@@ -416,7 +416,12 @@
 								},
 								{
 									"key": "email",
-									"value": "smamhtk@yahoo.com",
+									"value": "level2@tether-bank.com",
+									"type": "text"
+								},
+								{
+									"key": "refId",
+									"value": "7501AWSw6U4o",
 									"type": "text"
 								}
 							]
