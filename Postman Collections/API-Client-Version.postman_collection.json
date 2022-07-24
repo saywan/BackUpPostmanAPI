@@ -3660,6 +3660,11 @@
 									"key": "chargeType",
 									"value": "1",
 									"type": "text"
+								},
+								{
+									"key": "AdditionalData",
+									"value": "MGddmx68YWMboj4fIU8",
+									"type": "text"
 								}
 							]
 						},
