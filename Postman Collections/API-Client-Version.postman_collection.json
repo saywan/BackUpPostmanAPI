@@ -3680,19 +3680,30 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXZhcGkudGV0aGVyLWJhbmsuY29tXC9hcGlcL3YxXC9zaWduaW4iLCJpYXQiOjE2NTg1NTIwNDgsImV4cCI6MTY1ODcyNDg0OCwibmJmIjoxNjU4NTUyMDQ4LCJqdGkiOiJSV3NmdWM0RXpMV0d5WExHIiwic3ViIjoxNDIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.RkpTeRzOonHnSkzotRbvjF6P-kXKB1VtZ51TJLCRrJM"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "phoneNumber",
-									"value": "09035478091",
+									"key": "ReserveNumber",
+									"value": "20220724132508",
 									"type": "text"
 								},
 								{
-									"key": "operator",
-									"value": "MTN",
+									"key": "ReferenceNumber",
+									"value": "592278491",
+									"type": "text"
+								},
+								{
+									"key": "LocalDateTime",
+									"value": "2022-07-24T13:25:08.5855454+04:30",
 									"type": "text"
 								}
 							]
