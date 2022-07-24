@@ -3614,12 +3614,17 @@
 							"formdata": [
 								{
 									"key": "phoneNumber",
-									"value": "09185197577",
+									"value": "09035478091",
 									"type": "text"
 								},
 								{
 									"key": "operator",
-									"value": "MCI",
+									"value": "MTN",
+									"type": "text"
+								},
+								{
+									"key": "chargeType",
+									"value": "1",
 									"type": "text"
 								}
 							]
