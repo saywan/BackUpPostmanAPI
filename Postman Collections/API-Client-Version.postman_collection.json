@@ -3658,13 +3658,14 @@
 								},
 								{
 									"key": "chargeType",
-									"value": "1",
+									"value": "21030",
 									"type": "text"
 								},
 								{
 									"key": "AdditionalData",
 									"value": "MGddmx68YWMboj4fIU8",
-									"type": "text"
+									"type": "text",
+									"disabled": true
 								}
 							]
 						},
