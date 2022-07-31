@@ -3416,6 +3416,18 @@
 						"url": "http://46.100.53.10:7373/api/Devices/Register"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "5283a240-bd26-4e6b-886b-b9212ab84534",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "4c91ab4b-ab97-4afc-a4ec-2f61bac9b415"
