@@ -3418,7 +3418,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "sendSMSFestivalStory",
 					"id": "5283a240-bd26-4e6b-886b-b9212ab84534",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
