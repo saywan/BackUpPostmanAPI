@@ -3424,8 +3424,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": "{{client_url}}/api/v1/sendSMSFestivalStory"
 					},
 					"response": []
 				}
