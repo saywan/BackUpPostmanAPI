@@ -3429,6 +3429,19 @@
 						"url": "{{client_url}}/api/v1/sendSMSFestivalStory"
 					},
 					"response": []
+				},
+				{
+					"name": "sendAuthFailed",
+					"id": "ad3b4ac8-c3ae-4fbf-9379-aeb653880c65",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "{{client_url}}/api/v1/sendAuthFailed"
+					},
+					"response": []
 				}
 			],
 			"id": "4c91ab4b-ab97-4afc-a4ec-2f61bac9b415"
